@@ -43,7 +43,7 @@
 
 #### 1. 克隆项目
 ```bash
-git clone https://github.com/your-username/AnimeScore.git
+git clone https://github.com/Drahann/AnimeScore.git
 cd AnimeScore
 
 ```
@@ -193,7 +193,7 @@ AnimeScore/
 我们欢迎各种形式的贡献！
 
 ### 🐛 报告问题
-- 使用 [Issues](https://github.com/your-username/AnimeScore/issues) 报告 bug
+- 使用 [Issues](https://github.com/Drahann/AnimeScore/issues) 报告 bug
 - 提供详细的错误信息和复现步骤
 
 ### 💡 功能建议
