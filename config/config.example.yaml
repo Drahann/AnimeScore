@@ -1,0 +1,141 @@
+# AnimeScore Configuration Example
+# Copy this file to config.yaml and fill in your API keys
+
+# API Keys and Authentication
+api_keys:
+  bangumi:
+    access_token: "your_bangumi_access_token_here"
+  mal:
+    client_id: "your_mal_client_id_here"
+    client_secret: "your_mal_client_secret_here"
+  anilist:
+    # AniList uses public GraphQL API, no key needed
+    client_id: "optional_for_rate_limiting"
+
+# Website configurations
+websites:
+  bangumi:
+    enabled: true
+    api_base_url: "https://api.bgm.tv"
+    rate_limit: 1.0  # seconds between requests
+    timeout: 30
+    
+  douban:
+    enabled: true
+    base_url: "https://movie.douban.com"
+    rate_limit: 2.0  # be more conservative with scraping
+    timeout: 30
+    
+  mal:
+    enabled: true
+    api_base_url: "https://api.myanimelist.net/v2"
+    rate_limit: 1.0
+    timeout: 30
+    
+  anilist:
+    enabled: true
+    api_base_url: "https://graphql.anilist.co"
+    rate_limit: 1.0
+    timeout: 30
+    
+  imdb:
+    enabled: true
+    base_url: "https://www.imdb.com"
+    rate_limit: 3.0  # be very conservative
+    timeout: 30
+    
+  filmarks:
+    enabled: true
+    base_url: "https://filmarks.com"
+    rate_limit: 2.0
+    timeout: 30
+
+# Mathematical model parameters
+model:
+  # Bayesian average parameters
+  bayesian:
+    # Minimum credible sample size (M parameter)
+    min_credible_votes: 1500
+    
+  # Weighting parameters
+  weights:
+    # Minimum votes required to include a rating
+    min_votes_threshold: 50
+    # Use natural log for vote weighting
+    use_natural_log: true
+    
+  # Platform weights (if you want to give some platforms more importance)
+  platform_weights:
+    bangumi: 1.0
+    douban: 1.0
+    mal: 1.0
+    anilist: 1.0
+    imdb: 0.8  # might be less relevant for anime
+    filmarks: 0.9
+
+  # Site statistics calculation method
+  site_statistics:
+    # Method: "seasonal" (use current season data) or "fixed" (use predefined values)
+    # - "seasonal": More accurate for current trends, requires sufficient data
+    # - "fixed": More stable, uses historical averages
+    method: "seasonal"
+    # Minimum samples required for seasonal calculation (fallback to fixed if less)
+    # Recommended: 5-8 for balanced accuracy and coverage
+    min_seasonal_samples: 5
+
+# Seasonal anime detection
+seasonal:
+  # Current season (will be auto-detected if not specified)
+  # Format: "YYYY-Q" (e.g., "2024-1" for Winter 2024)
+  current_season: null
+  
+  # How many days before/after season start to include anime
+  season_buffer_days: 30
+  
+  # Minimum episodes to be considered a series (exclude movies, OVAs if desired)
+  min_episodes: 1
+
+# Data completion settings
+data_completion:
+  # Enable data completion (second-pass search for missing data)
+  enabled: true
+
+  # Maximum retry attempts per anime per website
+  max_retry_per_anime: 3
+
+  # Search timeout for each attempt (seconds)
+  search_timeout: 30
+
+  # Use alternative names for searching (English, simplified titles, etc.)
+  use_alternative_names: true
+
+  # Maximum parallel searches for completion
+  parallel_searches: 5
+
+  # Minimum existing websites required to attempt completion
+  # (Skip completion for anime with very few existing ratings)
+  min_existing_websites: 1
+
+  # Priority websites for completion (attempt these first)
+  priority_websites: ["bangumi", "mal", "anilist"]
+
+# Data storage
+storage:
+  # Directory for cached data
+  cache_dir: "data/cache"
+
+  # Directory for results
+  results_dir: "data/results"
+
+  # Cache expiration (hours)
+  cache_expiration: 24
+
+  # Export formats
+  export_formats: ["json", "csv", "xlsx"]
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR
+  file: "data/logs/animescore.log"
+  max_file_size: "10MB"
+  backup_count: 5

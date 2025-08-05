@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动漫综合评分计算公式</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .formula-section {
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .main-formula {
+            background: linear-gradient(135deg, #1e40af 0%, #3730a3 100%);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            border: 2px solid #60a5fa;
+            margin-bottom: 30px;
+        }
+
+        .formula {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+
+        .formula-desc {
+            font-size: 1.1rem;
+            color: #cbd5e1;
+            font-weight: 500;
+        }
+
+        .step-formula {
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            border-left: 4px solid #60a5fa;
+        }
+
+        .step-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #a78bfa;
+            margin-bottom: 15px;
+        }
+
+        .step-formula-text {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            background: rgba(30, 41, 59, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        .explanation {
+            font-size: 1rem;
+            color: #e2e8f0;
+            margin-top: 10px;
+        }
+
+        .note {
+            background: rgba(251, 191, 36, 0.1);
+            border: 1px solid #fbbf24;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            color: #fbbf24;
+            font-size: 0.95rem;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            color: #000000;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">动漫综合评分计算公式</h1>
+
+        <div class="formula-section">
+            <div class="main-formula">
+                <div class="formula">C = Σ(Z_i × W_i) / Σ(W_i)</div>
+                <div class="formula-desc">综合评分 = 加权Z-score平均值</div>
+            </div>
+
+            <div class="step-formula">
+                <div class="step-title">步骤 1: Z-score 标准化</div>
+                <div class="step-formula-text">Z = (S - μ) / σ</div>
+                <div class="explanation">
+                    将各网站的原始评分标准化，消除不同平台的评分尺度差异<br>
+                    <strong>S</strong> = 原始评分，<strong>μ</strong> = 网站平均分，<strong>σ</strong> = 网站标准差
+                </div>
+            </div>
+
+            <div class="step-formula">
+                <div class="step-title">步骤 2: 权重计算</div>
+                <div class="step-formula-text">W = ln(N) × P</div>
+                <div class="explanation">
+                    基于投票数的对数权重乘以平台权重<br>
+                    <strong>N</strong> = 投票数，<strong>P</strong> = 平台权重系数
+                </div>
+            </div>
+
+            <div class="note">
+                <strong>💡 算法特点：</strong><br>
+                • 使用 <span class="highlight">Z-score标准化</span> 消除平台评分差异<br>
+                • 采用 <span class="highlight">对数权重</span> 避免大样本过度影响<br>
+                • 考虑 <span class="highlight">平台权重</span> 反映不同网站的可靠性<br>
+                • 最低需要 <span class="highlight">2个网站</span> 的评分数据才能计算
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+    </div>
+</body>
+</html>
+    

@@ -1,0 +1,104 @@
+api_keys:
+  anilist:
+    client_id: "optional_for_rate_limiting"  # AniList 无需API密钥，可选配置
+  bangumi:
+    access_token: "your_bangumi_access_token_here"  # 从 https://bgm.tv/dev/app 获取
+  mal:
+    auth_mode: "client_id_only"
+    client_id: "your_mal_client_id_here"  # 从 https://myanimelist.net/apiconfig 获取
+    client_secret: "your_mal_client_secret_here"  # 从 https://myanimelist.net/apiconfig 获取
+logging:
+  backup_count: 5
+  file: data/logs/animescore.log
+  level: INFO
+  max_file_size: 10MB
+model:
+  bayesian:
+    min_credible_votes: 1500
+  platform_weights:
+    anilist: 1.0
+    bangumi: 1.0
+    douban: 1.0
+    filmarks: 0.9
+    imdb: 0.8
+    mal: 1.0
+  site_statistics:
+    method: seasonal
+    min_seasonal_samples: 5
+  weights:
+    min_votes_threshold: 50
+    min_websites: 1
+    use_natural_log: true
+# Data completion settings
+data_completion:
+  # Enable data completion (second-pass search for missing data)
+  enabled: true
+
+  # Maximum retry attempts per anime per website
+  max_retry_per_anime: 3
+
+  # Search timeout for each attempt (seconds)
+  search_timeout: 30
+
+  # Use alternative names for searching (English, simplified titles, etc.)
+  use_alternative_names: true
+
+  # Maximum parallel searches for completion
+  parallel_searches: 5
+
+  # Minimum existing websites required to attempt completion
+  # (Skip completion for anime with very few existing ratings)
+  min_existing_websites: 1
+
+  # Priority websites for completion (attempt these first)
+  priority_websites: ["bangumi", "mal", "anilist"]
+
+seasonal:
+  current_season: null
+  min_episodes: 1
+  season_buffer_days: 30
+storage:
+  cache_dir: data/cache
+  cache_expiration: 24
+  export_formats:
+  - json
+  - csv
+  - xlsx
+  results_dir: data/results
+websites:
+  anilist:
+    api_base_url: https://graphql.anilist.co
+    base_url: null
+    enabled: true
+    rate_limit: 3.0
+    timeout: 30
+  bangumi:
+    api_base_url: https://api.bgm.tv
+    base_url: null
+    enabled: true
+    rate_limit: 1.0
+    timeout: 30
+  douban:
+    api_base_url: null
+    base_url: https://movie.douban.com
+    enabled: false
+    rate_limit: 2.0
+    timeout: 30
+  filmarks:
+    api_base_url: null
+    base_url: https://filmarks.com
+    enabled: true
+    rate_limit: 3.0
+    timeout: 30
+  imdb:
+    api_base_url: null
+    base_url: https://www.imdb.com
+    enabled: true
+    rate_limit: 3.0
+    timeout: 30
+  mal:
+    api_base_url: https://api.myanimelist.net/v2
+    base_url: null
+    enabled: true
+    rate_limit: 2.0
+    timeout: 30

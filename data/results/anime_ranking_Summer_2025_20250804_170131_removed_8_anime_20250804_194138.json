@@ -1,0 +1,5806 @@
+{
+  "analysis_info": {
+    "season": "Summer",
+    "year": 2025,
+    "analysis_date": "2025-08-04T19:41:38.996452",
+    "total_anime_count": 77,
+    "analyzed_anime_count": 68,
+    "manual_removal": true,
+    "removal_date": "2025-08-04T19:41:38.996452",
+    "removed_anime_count": 8
+  },
+  "rankings": [
+    {
+      "rank": 1,
+      "title": "Takopii no Genzai",
+      "title_english": "Takopi's Original Sin",
+      "title_japanese": "タコピーの原罪",
+      "title_chinese": "章鱼哔的原罪",
+      "composite_score": 1.716,
+      "confidence": 0.691,
+      "total_votes": 93807,
+      "website_count": 5,
+      "percentile": 100.0,
+      "anime_type": "ONA",
+      "episodes": 6,
+      "start_date": "2025-06-28",
+      "studios": [
+        "ENISHIYA",
+        "TBS"
+      ],
+      "genres": [
+        "Drama",
+        "Psychological",
+        "Sci-Fi"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185407-7uzY4fA3hokP.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185407-WOKgyadY4Pr1.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.8,
+          "bayesian_score": 8.8,
+          "z_score": 2.055,
+          "vote_count": 14033,
+          "weight": 9.549,
+          "site_rank": 1,
+          "site_percentile": 100.0,
+          "url": "https://anilist.co/anime/185407"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": 0.905,
+          "vote_count": 5422,
+          "weight": 8.598,
+          "site_rank": 13,
+          "site_percentile": 82.08955223880598,
+          "url": "https://bgm.tv/subject/527620"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.4,
+          "bayesian_score": 8.4,
+          "z_score": 0.974,
+          "vote_count": 5987,
+          "weight": 7.828,
+          "site_rank": 7,
+          "site_percentile": 91.17647058823529,
+          "url": "https://filmarks.com/animes/4809/6518"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 9.2,
+          "bayesian_score": 9.2,
+          "z_score": 2.339,
+          "vote_count": 10771,
+          "weight": 7.428,
+          "site_rank": 1,
+          "site_percentile": 100.0,
+          "url": "https://www.imdb.com/title/tt36988358/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.97,
+          "bayesian_score": 8.97,
+          "z_score": 2.164,
+          "vote_count": 57594,
+          "weight": 10.961,
+          "site_rank": 1,
+          "site_percentile": 100.0,
+          "url": "https://myanimelist.net/anime/60489"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "Kimetsu no Yaiba: Mugenjou-hen Movie 1 - Akaza Sairai",
+      "title_english": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "title_japanese": "劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来",
+      "title_chinese": "剧场版 鬼灭之刃 无限城篇 第一章 猗窝座再袭",
+      "composite_score": 1.528,
+      "confidence": 0.746,
+      "total_votes": 234848,
+      "website_count": 5,
+      "percentile": 98.52941176470588,
+      "anime_type": "Movie",
+      "episodes": 1,
+      "start_date": "2025-07-18",
+      "studios": [
+        "Aniplex",
+        "ufotable",
+        "ufotable",
+        "Shueisha"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178788-0BVsKuCD6QtX.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178788-0BVsKuCD6QtX.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178788-uYQZgw1v7xyN.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.6,
+          "bayesian_score": 8.6,
+          "z_score": 1.834,
+          "vote_count": 2777,
+          "weight": 7.929,
+          "site_rank": 2,
+          "site_percentile": 98.46153846153847,
+          "url": "https://anilist.co/anime/178788"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 1.469,
+          "vote_count": 399,
+          "weight": 5.989,
+          "site_rank": 4,
+          "site_percentile": 95.52238805970148,
+          "url": "https://bgm.tv/subject/501958"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.4,
+          "bayesian_score": 8.4,
+          "z_score": 0.974,
+          "vote_count": 32931,
+          "weight": 9.362,
+          "site_rank": 8,
+          "site_percentile": 89.70588235294117,
+          "url": "https://filmarks.com/animes/2/2969"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.6,
+          "bayesian_score": 8.6,
+          "z_score": 1.578,
+          "vote_count": 195153,
+          "weight": 9.745,
+          "site_rank": 4,
+          "site_percentile": 95.3125,
+          "url": "https://www.imdb.com/title/tt9335498/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.72,
+          "bayesian_score": 8.72,
+          "z_score": 1.851,
+          "vote_count": 3588,
+          "weight": 8.185,
+          "site_rank": 3,
+          "site_percentile": 97.05882352941177,
+          "url": "https://myanimelist.net/anime/59192"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "Kaoru Hana wa Rin to Saku",
+      "title_english": "The Fragrant Flower Blooms With Dignity",
+      "title_japanese": "薫る花は凛と咲く",
+      "title_chinese": "薰香花朵凛然绽放",
+      "composite_score": 1.463,
+      "confidence": 0.637,
+      "total_votes": 38756,
+      "website_count": 5,
+      "percentile": 97.05882352941177,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Aniplex",
+        "CloverWorks",
+        "Kodansha",
+        "TOKYO MX",
+        "CloverWorks",
+        "BS11",
+        "Movic",
+        "Marui Group"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181444-Ut9DDUZdfHwg.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181444-Ut9DDUZdfHwg.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/181444-SBhwJNPxjHrr.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.6,
+          "bayesian_score": 8.6,
+          "z_score": 1.834,
+          "vote_count": 6050,
+          "weight": 8.708,
+          "site_rank": 3,
+          "site_percentile": 96.92307692307692,
+          "url": "https://anilist.co/anime/181444"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": 0.811,
+          "vote_count": 1235,
+          "weight": 7.119,
+          "site_rank": 18,
+          "site_percentile": 74.6268656716418,
+          "url": "https://bgm.tv/subject/513345"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 0.636,
+          "vote_count": 1171,
+          "weight": 6.359,
+          "site_rank": 16,
+          "site_percentile": 77.94117647058823,
+          "url": "https://filmarks.com/animes/4560/6167"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.8,
+          "bayesian_score": 8.8,
+          "z_score": 1.832,
+          "vote_count": 2380,
+          "weight": 6.22,
+          "site_rank": 2,
+          "site_percentile": 98.4375,
+          "url": "https://www.imdb.com/title/tt36592690/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.75,
+          "bayesian_score": 8.75,
+          "z_score": 1.889,
+          "vote_count": 27920,
+          "weight": 10.237,
+          "site_rank": 2,
+          "site_percentile": 98.52941176470588,
+          "url": "https://myanimelist.net/anime/59845"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "Grand Blue Season 2",
+      "title_english": "Grand Blue Dreaming Season 2",
+      "title_japanese": "ぐらんぶる Season 2",
+      "title_chinese": "碧蓝之海 第二季",
+      "composite_score": 1.383,
+      "confidence": 0.606,
+      "total_votes": 23084,
+      "website_count": 5,
+      "percentile": 95.58823529411765,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-08",
+      "studios": [
+        "Zero-G",
+        "Liber",
+        "NBCUniversal Entertainment Japan",
+        "Avex Pictures",
+        "Kodansha",
+        "JR Higashi Nihon Kikaku",
+        "Zero-G",
+        "Mainichi Broadcasting System",
+        "qooop",
+        "Saber Links"
+      ],
+      "genres": [
+        "Comedy",
+        "Slice of Life",
+        "Sports"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182309-tThxqSRn3At1.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx182309-tThxqSRn3At1.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/182309-kvcHexJjshIV.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.3,
+          "bayesian_score": 8.3,
+          "z_score": 1.504,
+          "vote_count": 2287,
+          "weight": 7.735,
+          "site_rank": 4,
+          "site_percentile": 95.38461538461539,
+          "url": "https://anilist.co/anime/182309"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 1.375,
+          "vote_count": 2023,
+          "weight": 7.612,
+          "site_rank": 7,
+          "site_percentile": 91.04477611940298,
+          "url": "https://bgm.tv/subject/515880"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.8,
+          "bayesian_score": 8.8,
+          "z_score": 1.312,
+          "vote_count": 423,
+          "weight": 5.443,
+          "site_rank": 3,
+          "site_percentile": 97.05882352941177,
+          "url": "https://filmarks.com/animes/225/6184"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.9,
+          "bayesian_score": 7.9,
+          "z_score": 0.689,
+          "vote_count": 5512,
+          "weight": 6.892,
+          "site_rank": 15,
+          "site_percentile": 78.125,
+          "url": "https://www.imdb.com/title/tt8086718/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.71,
+          "bayesian_score": 8.71,
+          "z_score": 1.839,
+          "vote_count": 12839,
+          "weight": 9.46,
+          "site_rank": 4,
+          "site_percentile": 95.58823529411765,
+          "url": "https://myanimelist.net/anime/59986"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai",
+      "title_english": "Rascal Does Not Dream of Santa Claus",
+      "title_japanese": "青春ブタ野郎はサンタクロースの夢を見ない",
+      "title_chinese": "青春笨蛋少年不做圣诞服女郎的梦",
+      "composite_score": 1.262,
+      "confidence": 0.581,
+      "total_votes": 15133,
+      "website_count": 5,
+      "percentile": 94.11764705882352,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-05",
+      "studios": [
+        "Aniplex",
+        "CloverWorks",
+        "ABC Animation",
+        "Nagoya Broadcasting Network",
+        "CloverWorks",
+        "TOKYO MX",
+        "KADOKAWA",
+        "BS11"
+      ],
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Psychological",
+        "Romance",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171046-9leqLiNuOqNu.png",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/171046-PjeeUUfeaVyR.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.1,
+          "bayesian_score": 8.1,
+          "z_score": 1.283,
+          "vote_count": 2328,
+          "weight": 7.753,
+          "site_rank": 8,
+          "site_percentile": 89.23076923076924,
+          "url": "https://anilist.co/anime/171046"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": 0.905,
+          "vote_count": 990,
+          "weight": 6.898,
+          "site_rank": 14,
+          "site_percentile": 80.59701492537313,
+          "url": "https://bgm.tv/subject/467930"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.8,
+          "bayesian_score": 8.8,
+          "z_score": 1.312,
+          "vote_count": 397,
+          "weight": 5.386,
+          "site_rank": 4,
+          "site_percentile": 95.58823529411765,
+          "url": "https://filmarks.com/animes/4540/6139"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.5,
+          "bayesian_score": 8.5,
+          "z_score": 1.451,
+          "vote_count": 661,
+          "weight": 5.195,
+          "site_rank": 5,
+          "site_percentile": 93.75,
+          "url": "https://www.imdb.com/title/tt33060122/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.34,
+          "bayesian_score": 8.34,
+          "z_score": 1.377,
+          "vote_count": 10757,
+          "weight": 9.283,
+          "site_rank": 8,
+          "site_percentile": 89.70588235294117,
+          "url": "https://myanimelist.net/anime/57433"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "Guimi Zhi Zhu: Xiaochou Pian",
+      "title_english": "Lord of Mysteries",
+      "title_japanese": "诡秘之主 小丑篇",
+      "title_chinese": "诡秘之主 小丑篇",
+      "composite_score": 1.246,
+      "confidence": 0.492,
+      "total_votes": 26567,
+      "website_count": 4,
+      "percentile": 92.64705882352942,
+      "anime_type": "ONA",
+      "episodes": 13,
+      "start_date": "2025-06-28",
+      "studios": [
+        "B.CMAY PICTURES"
+      ],
+      "genres": [
+        "Action",
+        "Adult Cast",
+        "Fantasy",
+        "Isekai",
+        "Mystery",
+        "Suspense",
+        "Urban Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137667-zHFOF6qbpksP.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx137667-zHFOF6qbpksP.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/137667-AhUoT3NFgbif.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 1.394,
+          "vote_count": 3495,
+          "weight": 8.159,
+          "site_rank": 5,
+          "site_percentile": 93.84615384615384,
+          "url": "https://anilist.co/anime/137667"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -0.129,
+          "vote_count": 181,
+          "weight": 5.198,
+          "site_rank": 32,
+          "site_percentile": 53.73134328358209,
+          "url": "https://bgm.tv/subject/345824"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.546,
+          "vote_count": 32,
+          "weight": null,
+          "site_rank": 49,
+          "site_percentile": 29.411764705882355,
+          "url": "https://filmarks.com/animes/1067/909"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.7,
+          "bayesian_score": 8.7,
+          "z_score": 1.705,
+          "vote_count": 6537,
+          "weight": 7.028,
+          "site_rank": 3,
+          "site_percentile": 96.875,
+          "url": "https://www.imdb.com/title/tt28618556/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.46,
+          "bayesian_score": 8.46,
+          "z_score": 1.526,
+          "vote_count": 16354,
+          "weight": 9.702,
+          "site_rank": 6,
+          "site_percentile": 92.64705882352942,
+          "url": "https://myanimelist.net/anime/49818"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "Sono Bisque Doll wa Koi wo Suru Season 2",
+      "title_english": "My Dress-Up Darling Season 2",
+      "title_japanese": "その着せ替え人形は恋をする Season 2",
+      "title_chinese": "更衣人偶坠入爱河 第二季",
+      "composite_score": 1.207,
+      "confidence": 0.66,
+      "total_votes": 56074,
+      "website_count": 5,
+      "percentile": 91.17647058823529,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Aniplex",
+        "CloverWorks",
+        "Movic",
+        "TOKYO MX",
+        "BS11",
+        "CloverWorks",
+        "Square Enix"
+      ],
+      "genres": [
+        "Comedy",
+        "Ecchi",
+        "Romance",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154768-DHHvNd4MjV1p.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx154768-DHHvNd4MjV1p.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/154768-EuZd63IcqsVq.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 1.394,
+          "vote_count": 6070,
+          "weight": 8.711,
+          "site_rank": 6,
+          "site_percentile": 92.3076923076923,
+          "url": "https://anilist.co/anime/154768"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 1.563,
+          "vote_count": 1909,
+          "weight": 7.554,
+          "site_rank": 3,
+          "site_percentile": 97.01492537313433,
+          "url": "https://bgm.tv/subject/398951"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 0.805,
+          "vote_count": 1189,
+          "weight": 6.373,
+          "site_rank": 11,
+          "site_percentile": 85.29411764705883,
+          "url": "https://filmarks.com/animes/3192/5472"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.9,
+          "bayesian_score": 7.9,
+          "z_score": 0.689,
+          "vote_count": 20527,
+          "weight": 7.944,
+          "site_rank": 16,
+          "site_percentile": 76.5625,
+          "url": "https://www.imdb.com/title/tt15765670/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.39,
+          "bayesian_score": 8.39,
+          "z_score": 1.439,
+          "vote_count": 26379,
+          "weight": 10.18,
+          "site_rank": 7,
+          "site_percentile": 91.17647058823529,
+          "url": "https://myanimelist.net/anime/53065"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "Dandadan 2nd Season",
+      "title_english": "DAN DA DAN Season 2",
+      "title_japanese": "ダンダダン 第2期",
+      "title_chinese": "胆大党 第二季",
+      "composite_score": 1.026,
+      "confidence": 0.653,
+      "total_votes": 50514,
+      "website_count": 5,
+      "percentile": 89.70588235294117,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-04",
+      "studios": [
+        "Science SARU",
+        "Mainichi Broadcasting System",
+        "Science SARU",
+        "Shueisha",
+        "Dentsu",
+        "Aniplex",
+        "Shogakukan-Shueisha Productions"
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Romance",
+        "Sci-Fi",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185660-uB8RUMBGovGr.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185660-uB8RUMBGovGr.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185660-NdXFgzcYmcDz.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 1.394,
+          "vote_count": 7917,
+          "weight": 8.977,
+          "site_rank": 7,
+          "site_percentile": 90.76923076923077,
+          "url": "https://anilist.co/anime/185660"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": 1.093,
+          "vote_count": 1658,
+          "weight": 7.413,
+          "site_rank": 10,
+          "site_percentile": 86.56716417910447,
+          "url": "https://bgm.tv/subject/529431"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 0.805,
+          "vote_count": 1957,
+          "weight": 6.821,
+          "site_rank": 12,
+          "site_percentile": 83.82352941176471,
+          "url": "https://filmarks.com/animes/4335/6276"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": -0.327,
+          "vote_count": 1576,
+          "weight": 5.89,
+          "site_rank": 38,
+          "site_percentile": 42.1875,
+          "url": "https://www.imdb.com/title/tt13049906/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.49,
+          "bayesian_score": 8.49,
+          "z_score": 1.564,
+          "vote_count": 37406,
+          "weight": 10.53,
+          "site_rank": 5,
+          "site_percentile": 94.11764705882352,
+          "url": "https://myanimelist.net/anime/60543"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "Hikaru ga Shinda Natsu",
+      "title_english": "The Summer Hikaru Died",
+      "title_japanese": "光が死んだ夏",
+      "title_chinese": "光死去的夏天",
+      "composite_score": 0.973,
+      "confidence": 0.615,
+      "total_votes": 26888,
+      "website_count": 5,
+      "percentile": 88.23529411764706,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "KADOKAWA",
+        "CygamesPictures",
+        "Netflix",
+        "CyberAgent",
+        "CygamesPictures",
+        "Nippon Television Network"
+      ],
+      "genres": [
+        "Horror",
+        "Mystery",
+        "Psychological",
+        "Supernatural",
+        "Thriller"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177689-d0mB5nYgdnhi.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177689-d0mB5nYgdnhi.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177689-hbCQDYraujAG.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 1.173,
+          "vote_count": 3489,
+          "weight": 8.157,
+          "site_rank": 10,
+          "site_percentile": 86.15384615384616,
+          "url": "https://anilist.co/anime/177689"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": 0.811,
+          "vote_count": 963,
+          "weight": 6.87,
+          "site_rank": 19,
+          "site_percentile": 73.13432835820896,
+          "url": "https://bgm.tv/subject/496086"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 0.636,
+          "vote_count": 2155,
+          "weight": 6.908,
+          "site_rank": 17,
+          "site_percentile": 76.47058823529412,
+          "url": "https://filmarks.com/animes/4481/6050"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.1,
+          "bayesian_score": 8.1,
+          "z_score": 0.943,
+          "vote_count": 1771,
+          "weight": 5.983,
+          "site_rank": 11,
+          "site_percentile": 84.375,
+          "url": "https://www.imdb.com/title/tt33028568/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.18,
+          "bayesian_score": 8.18,
+          "z_score": 1.177,
+          "vote_count": 18510,
+          "weight": 9.826,
+          "site_rank": 11,
+          "site_percentile": 85.29411764705883,
+          "url": "https://myanimelist.net/anime/58913"
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "New PANTY & STOCKING with GARTERBELT",
+      "title_english": "New PANTY & STOCKING with GARTERBELT",
+      "title_japanese": "New PANTY&STOCKING with GARTERBELT",
+      "title_chinese": "新 吊带袜天使",
+      "composite_score": 0.962,
+      "confidence": 0.741,
+      "total_votes": 216782,
+      "website_count": 5,
+      "percentile": 86.76470588235294,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-10",
+      "studios": [
+        "TRIGGER",
+        "KADOKAWA",
+        "Good Smile Company",
+        "ANICI",
+        "Ultra Super Pictures"
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Ecchi",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151799-igwbH3AffgHc.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx151799-igwbH3AffgHc.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/151799-WsBD1zyaha5p.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.9,
+          "bayesian_score": 7.9,
+          "z_score": 1.063,
+          "vote_count": 1085,
+          "weight": 6.989,
+          "site_rank": 12,
+          "site_percentile": 83.07692307692308,
+          "url": "https://anilist.co/anime/151799"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 1.939,
+          "vote_count": 1907,
+          "weight": 7.553,
+          "site_rank": 1,
+          "site_percentile": 100.0,
+          "url": "https://bgm.tv/subject/390555"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 9.0,
+          "bayesian_score": 9.0,
+          "z_score": 1.481,
+          "vote_count": 376,
+          "weight": 5.337,
+          "site_rank": 2,
+          "site_percentile": 98.52941176470588,
+          "url": "https://filmarks.com/animes/4170/5634"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": -0.073,
+          "vote_count": 3391,
+          "weight": 6.503,
+          "site_rank": 31,
+          "site_percentile": 53.125,
+          "url": "https://www.imdb.com/title/tt1727444/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.74,
+          "bayesian_score": 7.74,
+          "z_score": 0.627,
+          "vote_count": 210023,
+          "weight": 12.255,
+          "site_rank": 19,
+          "site_percentile": 73.52941176470588,
+          "url": "https://myanimelist.net/anime/8795"
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "Yofukashi no Uta Season 2",
+      "title_english": "Call of the Night Season 2",
+      "title_japanese": "よふかしのうた Season 2",
+      "title_chinese": "彻夜之歌 第二季",
+      "composite_score": 0.912,
+      "confidence": 0.604,
+      "total_votes": 22417,
+      "website_count": 5,
+      "percentile": 85.29411764705883,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-04",
+      "studios": [
+        "LIDENFILMS",
+        "Fuji TV",
+        "Aniplex",
+        "Shogakukan",
+        "Shogakukan-Shueisha Productions",
+        "Ultra Super Pictures",
+        "Tohan",
+        "Animax Broadcast Japan",
+        "Dentsu",
+        "Fuji Creative Corporation"
+      ],
+      "genres": [
+        "Comedy",
+        "Psychological",
+        "Romance",
+        "Slice of Life",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175914-VsbL90WzuqoM.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175914-VsbL90WzuqoM.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/175914-K0Hw6bg3Tf5i.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.1,
+          "bayesian_score": 8.1,
+          "z_score": 1.283,
+          "vote_count": 3066,
+          "weight": 8.028,
+          "site_rank": 9,
+          "site_percentile": 87.6923076923077,
+          "url": "https://anilist.co/anime/175914"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 1.469,
+          "vote_count": 1054,
+          "weight": 6.96,
+          "site_rank": 5,
+          "site_percentile": 94.02985074626866,
+          "url": "https://bgm.tv/subject/484623"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.129,
+          "vote_count": 537,
+          "weight": 5.657,
+          "site_rank": 34,
+          "site_percentile": 51.470588235294116,
+          "url": "https://filmarks.com/animes/3269/5974"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.054,
+          "vote_count": 5113,
+          "weight": 6.832,
+          "site_rank": 26,
+          "site_percentile": 60.9375,
+          "url": "https://www.imdb.com/title/tt15975122/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.26,
+          "bayesian_score": 8.26,
+          "z_score": 1.277,
+          "vote_count": 12647,
+          "weight": 9.445,
+          "site_rank": 9,
+          "site_percentile": 88.23529411764706,
+          "url": "https://myanimelist.net/anime/58390"
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "Ruri no Houseki",
+      "title_english": "Ruri Rocks",
+      "title_japanese": "瑠璃の宝石",
+      "title_chinese": "琉璃的宝石",
+      "composite_score": 0.9,
+      "confidence": 0.546,
+      "total_votes": 8537,
+      "website_count": 5,
+      "percentile": 83.82352941176471,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Aniplex",
+        "Studio Bind",
+        "KADOKAWA",
+        "TOKYO MX",
+        "BS11",
+        "AT-X",
+        "FuRyu",
+        "Movic",
+        "Bit Grooove Promotion",
+        "EGG FIRM"
+      ],
+      "genres": [
+        "Adventure",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180929-ytdzqbrOhots.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180929-ytdzqbrOhots.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180929-HUn5e8gpygL8.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.512,
+          "vote_count": 1446,
+          "weight": 7.277,
+          "site_rank": 21,
+          "site_percentile": 69.23076923076923,
+          "url": "https://anilist.co/anime/180929"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 1.469,
+          "vote_count": 1743,
+          "weight": 7.463,
+          "site_rank": 6,
+          "site_percentile": 92.53731343283582,
+          "url": "https://bgm.tv/subject/512190"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.6,
+          "bayesian_score": 8.6,
+          "z_score": 1.143,
+          "vote_count": 513,
+          "weight": 5.616,
+          "site_rank": 6,
+          "site_percentile": 92.64705882352942,
+          "url": "https://filmarks.com/animes/4559/6166"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.1,
+          "bayesian_score": 8.1,
+          "z_score": 0.943,
+          "vote_count": 90,
+          "weight": 3.6,
+          "site_rank": 12,
+          "site_percentile": 82.8125,
+          "url": "https://www.imdb.com/title/tt37113118/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.68,
+          "bayesian_score": 7.68,
+          "z_score": 0.552,
+          "vote_count": 4745,
+          "weight": 8.465,
+          "site_rank": 21,
+          "site_percentile": 70.58823529411765,
+          "url": "https://myanimelist.net/anime/59791"
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "title": "CITY THE ANIMATION",
+      "title_english": "CITY THE ANIMATION",
+      "title_japanese": "CITY THE ANIMATION",
+      "title_chinese": "小城日常",
+      "composite_score": 0.783,
+      "confidence": 0.561,
+      "total_votes": 10902,
+      "website_count": 5,
+      "percentile": 82.35294117647058,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-07",
+      "studios": [
+        "Kyoto Animation",
+        "Kyoto Animation",
+        "ABC Animation",
+        "Pony Canyon",
+        "Kodansha"
+      ],
+      "genres": [
+        "Comedy",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181841-9TcjIyZefot2.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx181841-9TcjIyZefot2.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/181841-aegccbKnNjxK.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.842,
+          "vote_count": 1966,
+          "weight": 7.584,
+          "site_rank": 15,
+          "site_percentile": 78.46153846153847,
+          "url": "https://anilist.co/anime/181841"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 1.187,
+          "vote_count": 2394,
+          "weight": 7.781,
+          "site_rank": 8,
+          "site_percentile": 89.55223880597015,
+          "url": "https://bgm.tv/subject/514358"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.467,
+          "vote_count": 575,
+          "weight": 5.719,
+          "site_rank": 22,
+          "site_percentile": 69.11764705882352,
+          "url": "https://filmarks.com/animes/4564/6172"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.435,
+          "vote_count": 165,
+          "weight": 4.085,
+          "site_rank": 18,
+          "site_percentile": 73.4375,
+          "url": "https://www.imdb.com/title/tt33472011/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.83,
+          "bayesian_score": 7.83,
+          "z_score": 0.739,
+          "vote_count": 5802,
+          "weight": 8.666,
+          "site_rank": 18,
+          "site_percentile": 75.0,
+          "url": "https://myanimelist.net/anime/59898"
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "title": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha",
+      "title_english": "Clevatess",
+      "title_japanese": "クレバテス-魔獣の王と赤子と屍の勇者-",
+      "title_chinese": "克雷瓦提斯-魔兽之王与婴儿与尸之勇者-",
+      "composite_score": 0.777,
+      "confidence": 0.582,
+      "total_votes": 15548,
+      "website_count": 5,
+      "percentile": 80.88235294117648,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-02",
+      "studios": [
+        "Lay-duce"
+      ],
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178869-qiEz0gQD8H5N.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178869-qiEz0gQD8H5N.png",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178869-ZFn0hKphaLtk.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 0.732,
+          "vote_count": 2314,
+          "weight": 7.747,
+          "site_rank": 18,
+          "site_percentile": 73.84615384615385,
+          "url": "https://anilist.co/anime/178869"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.9,
+          "bayesian_score": 6.9,
+          "z_score": 0.717,
+          "vote_count": 764,
+          "weight": 6.639,
+          "site_rank": 22,
+          "site_percentile": 68.65671641791045,
+          "url": "https://bgm.tv/subject/502142"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 0.636,
+          "vote_count": 205,
+          "weight": 4.791,
+          "site_rank": 18,
+          "site_percentile": 75.0,
+          "url": "https://filmarks.com/animes/4507/6093"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.1,
+          "bayesian_score": 8.1,
+          "z_score": 0.943,
+          "vote_count": 577,
+          "weight": 5.086,
+          "site_rank": 13,
+          "site_percentile": 81.25,
+          "url": "https://www.imdb.com/title/tt32991344/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.91,
+          "bayesian_score": 7.91,
+          "z_score": 0.839,
+          "vote_count": 11688,
+          "weight": 9.366,
+          "site_rank": 16,
+          "site_percentile": 77.94117647058823,
+          "url": "https://myanimelist.net/anime/59205"
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "title": "Gachiakuta",
+      "title_english": "Gachiakuta",
+      "title_japanese": "ガチアクタ",
+      "title_chinese": "咔嗒咔嗒",
+      "composite_score": 0.763,
+      "confidence": 0.631,
+      "total_votes": 35181,
+      "website_count": 5,
+      "percentile": 79.41176470588235,
+      "anime_type": "TV",
+      "episodes": 24,
+      "start_date": "2025-07-06",
+      "studios": [
+        "bones",
+        "Avex Pictures",
+        "bones film",
+        "Kodansha",
+        "DMM.com",
+        "CBC TV",
+        "Dentsu",
+        "Com2uS"
+      ],
+      "genres": [
+        "Action",
+        "Drama",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178025-cWJKEsZynkil.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178025-cWJKEsZynkil.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178025-KH3NSrRChfGy.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.953,
+          "vote_count": 5613,
+          "weight": 8.633,
+          "site_rank": 13,
+          "site_percentile": 81.53846153846153,
+          "url": "https://anilist.co/anime/178025"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.8,
+          "bayesian_score": 5.8,
+          "z_score": -0.317,
+          "vote_count": 367,
+          "weight": 5.905,
+          "site_rank": 37,
+          "site_percentile": 46.26865671641791,
+          "url": "https://bgm.tv/subject/498947"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 0.636,
+          "vote_count": 891,
+          "weight": 6.113,
+          "site_rank": 19,
+          "site_percentile": 73.52941176470588,
+          "url": "https://filmarks.com/animes/4539/6138"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.3,
+          "bayesian_score": 8.3,
+          "z_score": 1.197,
+          "vote_count": 2553,
+          "weight": 6.276,
+          "site_rank": 8,
+          "site_percentile": 89.0625,
+          "url": "https://www.imdb.com/title/tt32612521/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.07,
+          "bayesian_score": 8.07,
+          "z_score": 1.039,
+          "vote_count": 25757,
+          "weight": 10.156,
+          "site_rank": 12,
+          "site_percentile": 83.82352941176471,
+          "url": "https://myanimelist.net/anime/59062"
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "title": "Kaijuu 8-gou 2nd Season",
+      "title_english": "Kaiju No. 8 Season 2",
+      "title_japanese": "怪獣８号 第２期",
+      "title_chinese": "怪兽8号 第二季",
+      "composite_score": 0.76,
+      "confidence": 0.643,
+      "total_votes": 42422,
+      "website_count": 5,
+      "percentile": 77.94117647058823,
+      "anime_type": "TV",
+      "episodes": 11,
+      "start_date": "2025-07-19",
+      "studios": [
+        "Shueisha",
+        "Toho",
+        "Production I.G"
+      ],
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178754-Dgrub8xgC03M.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178754-Dgrub8xgC03M.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178754-pzQw3EJ0DYO9.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.953,
+          "vote_count": 2999,
+          "weight": 8.006,
+          "site_rank": 14,
+          "site_percentile": 80.0,
+          "url": "https://anilist.co/anime/178754"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.8,
+          "bayesian_score": 5.8,
+          "z_score": -0.317,
+          "vote_count": 319,
+          "weight": 5.765,
+          "site_rank": 38,
+          "site_percentile": 44.776119402985074,
+          "url": "https://bgm.tv/subject/501844"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 0.805,
+          "vote_count": 877,
+          "weight": 6.099,
+          "site_rank": 13,
+          "site_percentile": 82.35294117647058,
+          "url": "https://filmarks.com/animes/3865/6126"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.3,
+          "bayesian_score": 8.3,
+          "z_score": 1.197,
+          "vote_count": 24050,
+          "weight": 8.07,
+          "site_rank": 9,
+          "site_percentile": 87.5,
+          "url": "https://www.imdb.com/title/tt21975436/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.92,
+          "bayesian_score": 7.92,
+          "z_score": 0.852,
+          "vote_count": 14177,
+          "weight": 9.559,
+          "site_rank": 15,
+          "site_percentile": 79.41176470588235,
+          "url": "https://myanimelist.net/anime/59177"
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "title": "Dr. STONE: SCIENCE FUTURE Part 2",
+      "title_english": "Dr. STONE SCIENCE FUTURE Cour 2",
+      "title_japanese": "Dr.STONE SCIENCE FUTURE 2クール",
+      "title_chinese": "石纪元 科学与未来 第2部分",
+      "composite_score": 0.699,
+      "confidence": 0.574,
+      "total_votes": 13611,
+      "website_count": 5,
+      "percentile": 76.47058823529412,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-10",
+      "studios": [
+        "TMS Entertainment",
+        "Toho",
+        "TMS Entertainment",
+        "Shueisha"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Sci-Fi"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189117-EJQHOFjLoK2k.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189117-EJQHOFjLoK2k.png",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/172019-qchFwdk8OM4m.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 1.173,
+          "vote_count": 2280,
+          "weight": 7.732,
+          "site_rank": 11,
+          "site_percentile": 84.61538461538461,
+          "url": "https://anilist.co/anime/189117"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": 0.905,
+          "vote_count": 303,
+          "weight": 5.714,
+          "site_rank": 15,
+          "site_percentile": 79.1044776119403,
+          "url": "https://bgm.tv/subject/508003"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.546,
+          "vote_count": 570,
+          "weight": 5.711,
+          "site_rank": 50,
+          "site_percentile": 27.941176470588236,
+          "url": "https://filmarks.com/animes/362/6435"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.054,
+          "vote_count": 157,
+          "weight": 4.045,
+          "site_rank": 27,
+          "site_percentile": 59.375,
+          "url": "https://www.imdb.com/title/tt9892700/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 8.22,
+          "bayesian_score": 8.22,
+          "z_score": 1.227,
+          "vote_count": 10301,
+          "weight": 9.24,
+          "site_rank": 10,
+          "site_percentile": 86.76470588235294,
+          "url": "https://myanimelist.net/anime/61322"
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "title": "Silent Witch: Chinmoku no Majo no Kakushigoto",
+      "title_english": "Secrets of the Silent Witch",
+      "title_japanese": "サイレント・ウィッチ 沈黙の魔女の隠しごと",
+      "title_chinese": "Silent Witch 沉默魔女的秘密",
+      "composite_score": 0.652,
+      "confidence": 0.589,
+      "total_votes": 17520,
+      "website_count": 5,
+      "percentile": 75.0,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-05",
+      "studios": [
+        "Aniplex",
+        "KADOKAWA",
+        "Studio Gokumi",
+        "TOKYO MX",
+        "BS11",
+        "Movic"
+      ],
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179966-g0EU7rVe2Og7.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179966-g0EU7rVe2Og7.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/179966-hf71VrF1zhPM.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.842,
+          "vote_count": 2833,
+          "weight": 7.949,
+          "site_rank": 16,
+          "site_percentile": 76.92307692307693,
+          "url": "https://anilist.co/anime/179966"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": 0.905,
+          "vote_count": 1856,
+          "weight": 7.526,
+          "site_rank": 16,
+          "site_percentile": 77.61194029850746,
+          "url": "https://bgm.tv/subject/506677"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.467,
+          "vote_count": 554,
+          "weight": 5.685,
+          "site_rank": 23,
+          "site_percentile": 67.64705882352942,
+          "url": "https://filmarks.com/animes/4529/6124"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": -0.454,
+          "vote_count": 304,
+          "weight": 4.574,
+          "site_rank": 42,
+          "site_percentile": 35.9375,
+          "url": "https://www.imdb.com/title/tt33317800/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.99,
+          "bayesian_score": 7.99,
+          "z_score": 0.939,
+          "vote_count": 11973,
+          "weight": 9.39,
+          "site_rank": 13,
+          "site_percentile": 82.35294117647058,
+          "url": "https://myanimelist.net/anime/59459"
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "title": "SAKAMOTO DAYS Part 2",
+      "title_english": "SAKAMOTO DAYS Part 2",
+      "title_japanese": "SAKAMOTO DAYS 第２クール",
+      "title_chinese": "坂本日常 第2部分",
+      "composite_score": 0.599,
+      "confidence": 0.462,
+      "total_votes": 14366,
+      "website_count": 4,
+      "percentile": 73.52941176470588,
+      "anime_type": "ONA",
+      "episodes": 11,
+      "start_date": "2025-07-15",
+      "studios": [
+        "TMS Entertainment"
+      ],
+      "genres": [
+        "Action",
+        "Comedy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184237-OJAksU2fsIPx.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184237-OJAksU2fsIPx.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184237-SBj6UJvIWAOg.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.842,
+          "vote_count": 2322,
+          "weight": 7.75,
+          "site_rank": 17,
+          "site_percentile": 75.38461538461539,
+          "url": "https://anilist.co/anime/184237"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -0.129,
+          "vote_count": 247,
+          "weight": 5.509,
+          "site_rank": 33,
+          "site_percentile": 52.23880597014925,
+          "url": "https://bgm.tv/subject/524005"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 0.636,
+          "vote_count": 773,
+          "weight": 5.985,
+          "site_rank": 20,
+          "site_percentile": 72.05882352941177,
+          "url": "https://filmarks.com/animes/4484/6423"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": -0.073,
+          "vote_count": 16,
+          "weight": null,
+          "site_rank": 32,
+          "site_percentile": 51.5625,
+          "url": "https://www.imdb.com/title/tt0386492/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.88,
+          "bayesian_score": 7.88,
+          "z_score": 0.802,
+          "vote_count": 11024,
+          "weight": 9.308,
+          "site_rank": 17,
+          "site_percentile": 76.47058823529412,
+          "url": "https://myanimelist.net/anime/60285"
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "title": "Nukitashi THE ANIMATION",
+      "title_english": "Nukitashi THE ANIMATION",
+      "title_japanese": "ぬきたし THE ANIMATION",
+      "title_chinese": "拔作岛",
+      "composite_score": 0.528,
+      "confidence": 0.66,
+      "total_votes": 56548,
+      "website_count": 5,
+      "percentile": 72.05882352941177,
+      "anime_type": "TV",
+      "episodes": 11,
+      "start_date": "2025-07-19",
+      "studios": [
+        "KADOKAWA",
+        "Passione",
+        "Yostar",
+        "AT-X",
+        "Qruppo"
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Ecchi",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174188-fZg8iePD9Dca.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx174188-fZg8iePD9Dca.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/174188-zHfBIXSeesMT.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.149,
+          "vote_count": 900,
+          "weight": 6.802,
+          "site_rank": 29,
+          "site_percentile": 56.92307692307692,
+          "url": "https://anilist.co/anime/174188"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.9,
+          "bayesian_score": 7.9,
+          "z_score": 1.657,
+          "vote_count": 2789,
+          "weight": 7.933,
+          "site_rank": 2,
+          "site_percentile": 98.50746268656717,
+          "url": "https://bgm.tv/subject/477825"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 9.2,
+          "bayesian_score": 9.2,
+          "z_score": 1.65,
+          "vote_count": 100,
+          "weight": 4.145,
+          "site_rank": 1,
+          "site_percentile": 100.0,
+          "url": "https://filmarks.com/animes/4518/6111"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.9,
+          "bayesian_score": 6.9,
+          "z_score": -0.581,
+          "vote_count": 187,
+          "weight": 4.185,
+          "site_rank": 45,
+          "site_percentile": 31.25,
+          "url": "https://www.imdb.com/title/tt37205655/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.34,
+          "bayesian_score": 7.34,
+          "z_score": 0.127,
+          "vote_count": 52572,
+          "weight": 10.87,
+          "site_rank": 26,
+          "site_percentile": 63.23529411764706,
+          "url": "https://myanimelist.net/anime/23311"
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "title": "Jibaku Shounen Hanako-kun 2 Part 2",
+      "title_english": "Toilet-Bound Hanako-kun Season 2 Part 2",
+      "title_japanese": "地縛少年花子くん２ 後編",
+      "title_chinese": "放学后少年花子君 续篇",
+      "composite_score": 0.447,
+      "confidence": 0.534,
+      "total_votes": 7018,
+      "website_count": 5,
+      "percentile": 70.58823529411765,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Lerche",
+        "TBS",
+        "Pony Canyon",
+        "Square Enix",
+        "Crunchyroll",
+        "Movic",
+        "Contents Seed",
+        "Studio Hibari"
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama",
+        "Mystery",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189326-kaYdWFxyyYdx.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189326-kaYdWFxyyYdx.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189326-QgANtHkolp8i.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.5,
+          "bayesian_score": 7.5,
+          "z_score": 0.622,
+          "vote_count": 627,
+          "weight": 6.441,
+          "site_rank": 19,
+          "site_percentile": 72.3076923076923,
+          "url": "https://anilist.co/anime/189326"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -0.035,
+          "vote_count": 316,
+          "weight": 5.756,
+          "site_rank": 31,
+          "site_percentile": 55.223880597014926,
+          "url": "https://bgm.tv/subject/464594"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.467,
+          "vote_count": 131,
+          "weight": 4.388,
+          "site_rank": 24,
+          "site_percentile": 66.17647058823529,
+          "url": "https://filmarks.com/animes/259/6454"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.5,
+          "bayesian_score": 7.5,
+          "z_score": 0.181,
+          "vote_count": 3326,
+          "weight": 6.488,
+          "site_rank": 24,
+          "site_percentile": 64.0625,
+          "url": "https://www.imdb.com/title/tt10777610/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.93,
+          "bayesian_score": 7.93,
+          "z_score": 0.864,
+          "vote_count": 2618,
+          "weight": 7.87,
+          "site_rank": 14,
+          "site_percentile": 80.88235294117648,
+          "url": "https://myanimelist.net/anime/61339"
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "title": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu 2nd Season",
+      "title_english": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability Season 2",
+      "title_japanese": "転生したら第七王子だったので、気ままに魔術を極めます 第2期",
+      "title_chinese": "转生为第七王子，随心所欲的魔法学习之路 第二季",
+      "composite_score": 0.411,
+      "confidence": 0.56,
+      "total_votes": 10816,
+      "website_count": 5,
+      "percentile": 69.11764705882352,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-10",
+      "studios": [
+        "Tsumugi Akita Animation Lab"
+      ],
+      "genres": [
+        "Adventure",
+        "Fantasy",
+        "Reincarnation"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178090-1OOScJqXLjRd.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178090-1OOScJqXLjRd.png",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/178090-EgKftuHoDJB7.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.5,
+          "bayesian_score": 7.5,
+          "z_score": 0.622,
+          "vote_count": 1582,
+          "weight": 7.366,
+          "site_rank": 20,
+          "site_percentile": 70.76923076923077,
+          "url": "https://anilist.co/anime/178090"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": 0.811,
+          "vote_count": 424,
+          "weight": 6.05,
+          "site_rank": 20,
+          "site_percentile": 71.64179104477611,
+          "url": "https://bgm.tv/subject/499656"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 0.805,
+          "vote_count": 312,
+          "weight": 5.169,
+          "site_rank": 14,
+          "site_percentile": 80.88235294117648,
+          "url": "https://filmarks.com/animes/3830/6074"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.708,
+          "vote_count": 2052,
+          "weight": 6.101,
+          "site_rank": 48,
+          "site_percentile": 26.5625,
+          "url": "https://www.imdb.com/title/tt31624309/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.64,
+          "bayesian_score": 7.64,
+          "z_score": 0.502,
+          "vote_count": 6446,
+          "weight": 8.771,
+          "site_rank": 22,
+          "site_percentile": 69.11764705882352,
+          "url": "https://myanimelist.net/anime/59095"
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "title": "Ame to Kimi to",
+      "title_english": "With You and the Rain",
+      "title_japanese": "雨と君と",
+      "title_chinese": "和雨和你",
+      "composite_score": 0.381,
+      "confidence": 0.522,
+      "total_votes": 5734,
+      "website_count": 5,
+      "percentile": 67.64705882352942,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Lesprit",
+        "NBCUniversal Entertainment Japan",
+        "BS Asahi",
+        "TV Asahi"
+      ],
+      "genres": [
+        "Comedy",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180425-e5yNWog1hDuu.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180425-e5yNWog1hDuu.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180425-l3CldufhygVc.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": 0.181,
+          "vote_count": 895,
+          "weight": 6.797,
+          "site_rank": 26,
+          "site_percentile": 61.53846153846154,
+          "url": "https://anilist.co/anime/180425"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.9,
+          "bayesian_score": 6.9,
+          "z_score": 0.717,
+          "vote_count": 530,
+          "weight": 6.273,
+          "site_rank": 23,
+          "site_percentile": 67.16417910447761,
+          "url": "https://bgm.tv/subject/509062"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 0.298,
+          "vote_count": 451,
+          "weight": 5.5,
+          "site_rank": 29,
+          "site_percentile": 58.82352941176471,
+          "url": "https://filmarks.com/animes/4544/6143"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.562,
+          "vote_count": 102,
+          "weight": 3.7,
+          "site_rank": 17,
+          "site_percentile": 75.0,
+          "url": "https://www.imdb.com/title/tt36143285/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.45,
+          "bayesian_score": 7.45,
+          "z_score": 0.265,
+          "vote_count": 3756,
+          "weight": 8.231,
+          "site_rank": 25,
+          "site_percentile": 64.70588235294117,
+          "url": "https://myanimelist.net/anime/59619"
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "title": "Mikadono Sanshimai wa Angai, Choroi.",
+      "title_english": "Dealing with Mikadono Sisters Is a Breeze",
+      "title_japanese": "帝乃三姉妹は案外、チョロい。",
+      "title_chinese": "帝乃三姐妹原来很好搞定。",
+      "composite_score": 0.299,
+      "confidence": 0.539,
+      "total_votes": 7660,
+      "website_count": 5,
+      "percentile": 66.17647058823529,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-10",
+      "studios": [
+        "Aniplex",
+        "P.A.WORKS",
+        "Mainichi Broadcasting System",
+        "SANKYO",
+        "JR Higashi Nihon Kikaku",
+        "Shogakukan",
+        "arma bianca",
+        "TOKYO MX",
+        "BS11",
+        "Movic"
+      ],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178886-KjzSXyEB61zX.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178886-KjzSXyEB61zX.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": 0.402,
+          "vote_count": 1313,
+          "weight": 7.18,
+          "site_rank": 23,
+          "site_percentile": 66.15384615384615,
+          "url": "https://anilist.co/anime/178886"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.3,
+          "bayesian_score": 6.3,
+          "z_score": 0.153,
+          "vote_count": 363,
+          "weight": 5.894,
+          "site_rank": 28,
+          "site_percentile": 59.70149253731343,
+          "url": "https://bgm.tv/subject/502272"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": -0.039,
+          "vote_count": 223,
+          "weight": 4.866,
+          "site_rank": 39,
+          "site_percentile": 44.11764705882353,
+          "url": "https://filmarks.com/animes/4509/6096"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.435,
+          "vote_count": 164,
+          "weight": 4.08,
+          "site_rank": 19,
+          "site_percentile": 71.875,
+          "url": "https://www.imdb.com/title/tt36469298/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.59,
+          "bayesian_score": 7.59,
+          "z_score": 0.439,
+          "vote_count": 5597,
+          "weight": 8.63,
+          "site_rank": 23,
+          "site_percentile": 67.64705882352942,
+          "url": "https://myanimelist.net/anime/59207"
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "title": "Arknights: Rise from Ember",
+      "title_english": "Arknights: Rise from Ember",
+      "title_japanese": "アークナイツ【焔燼曙明/RISE FROM EMBER】",
+      "title_chinese": "明日方舟：焰烬曙明",
+      "composite_score": 0.296,
+      "confidence": 0.374,
+      "total_votes": 2307,
+      "website_count": 4,
+      "percentile": 64.70588235294117,
+      "anime_type": "TV",
+      "episodes": 10,
+      "start_date": "2025-07-04",
+      "studios": [
+        "Yostar Pictures"
+      ],
+      "genres": [
+        "Action",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177175-cr5tlJIj7dEi.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177175-cr5tlJIj7dEi.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177175-8obfhwGOFXuk.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": 0.402,
+          "vote_count": 440,
+          "weight": 6.087,
+          "site_rank": 24,
+          "site_percentile": 64.61538461538461,
+          "url": "https://anilist.co/anime/177175"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.3,
+          "bayesian_score": 6.3,
+          "z_score": 0.153,
+          "vote_count": 202,
+          "weight": 5.308,
+          "site_rank": 29,
+          "site_percentile": 58.2089552238806,
+          "url": "https://bgm.tv/subject/492199"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 3.4,
+          "bayesian_score": 3.4,
+          "z_score": -3.249,
+          "vote_count": 43,
+          "weight": null,
+          "site_rank": 68,
+          "site_percentile": 1.4705882352941175,
+          "url": "https://filmarks.com/animes/3674/6212"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": -0.327,
+          "vote_count": 50,
+          "weight": 3.13,
+          "site_rank": 39,
+          "site_percentile": 40.625,
+          "url": "https://www.imdb.com/title/tt36987898/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.577,
+          "vote_count": 1615,
+          "weight": 7.387,
+          "site_rank": 20,
+          "site_percentile": 72.05882352941177,
+          "url": "https://myanimelist.net/anime/58749"
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "title": "Food Court de, Mata Ashita.",
+      "title_english": "See You Tomorrow at the Food Court",
+      "title_japanese": "フードコートで、また明日。",
+      "title_chinese": "明天，美食广场见。",
+      "composite_score": 0.237,
+      "confidence": 0.411,
+      "total_votes": 4996,
+      "website_count": 4,
+      "percentile": 63.23529411764706,
+      "anime_type": "TV",
+      "episodes": 6,
+      "start_date": "2025-07-07",
+      "studios": [
+        "Atelier Pontdarc",
+        "KADOKAWA",
+        "Movic",
+        "BS Nittele",
+        "AT-X",
+        "TOKYO MX",
+        "Toy's Factory",
+        "Sun Television"
+      ],
+      "genres": [
+        "Comedy",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185519-cuRKYBlZ3uWw.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185519-cuRKYBlZ3uWw.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185519-WRtGn9JOriG8.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.149,
+          "vote_count": 868,
+          "weight": 6.766,
+          "site_rank": 30,
+          "site_percentile": 55.38461538461539,
+          "url": "https://anilist.co/anime/185519"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": 0.999,
+          "vote_count": 1270,
+          "weight": 7.147,
+          "site_rank": 11,
+          "site_percentile": 85.07462686567165,
+          "url": "https://bgm.tv/subject/528438"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.467,
+          "vote_count": 297,
+          "weight": 5.124,
+          "site_rank": 25,
+          "site_percentile": 64.70588235294117,
+          "url": "https://filmarks.com/animes/4634/6264"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.962,
+          "vote_count": 29,
+          "weight": null,
+          "site_rank": 53,
+          "site_percentile": 18.75,
+          "url": "https://www.imdb.com/title/tt36082234/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.02,
+          "bayesian_score": 7.02,
+          "z_score": -0.273,
+          "vote_count": 2561,
+          "weight": 7.848,
+          "site_rank": 36,
+          "site_percentile": 48.529411764705884,
+          "url": "https://myanimelist.net/anime/60508"
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "title": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (※Muri ja Nakatta!?)",
+      "title_english": "There's No Freaking Way I'll Be Your Lover! Unless...",
+      "title_japanese": "わたしが恋人になれるわけないじゃん、ムリムリ! (※ムリじゃなかった!?)",
+      "title_chinese": "我怎么可能成为你的恋人，不行不行！(※不是不可能！？)",
+      "composite_score": 0.225,
+      "confidence": 0.552,
+      "total_votes": 9413,
+      "website_count": 5,
+      "percentile": 61.76470588235294,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-08",
+      "studios": [
+        "studio MOTHER",
+        "Shueisha DeNA Projects",
+        "Shueisha",
+        "REMOW"
+      ],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184591-jRXZ29bN61Zc.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184591-jRXZ29bN61Zc.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.512,
+          "vote_count": 1743,
+          "weight": 7.463,
+          "site_rank": 22,
+          "site_percentile": 67.6923076923077,
+          "url": "https://anilist.co/anime/184591"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": 0.999,
+          "vote_count": 1955,
+          "weight": 7.578,
+          "site_rank": 12,
+          "site_percentile": 83.5820895522388,
+          "url": "https://bgm.tv/subject/524707"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 0.805,
+          "vote_count": 220,
+          "weight": 4.854,
+          "site_rank": 15,
+          "site_percentile": 79.41176470588235,
+          "url": "https://filmarks.com/animes/4658/6304"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.1,
+          "bayesian_score": 8.1,
+          "z_score": 0.943,
+          "vote_count": 109,
+          "weight": 3.753,
+          "site_rank": 14,
+          "site_percentile": 79.6875,
+          "url": "https://www.imdb.com/title/tt36592708/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.16,
+          "bayesian_score": 6.16,
+          "z_score": -1.347,
+          "vote_count": 5386,
+          "weight": 8.592,
+          "site_rank": 62,
+          "site_percentile": 10.294117647058822,
+          "url": "https://myanimelist.net/anime/58173"
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "title": "Ginga Tokkyuu Milky☆Subway",
+      "title_english": "Milky☆Subway: The Galactic Limited Express",
+      "title_japanese": "銀河特急 ミルキー☆サブウェイ",
+      "title_chinese": "银河特急 银河☆地铁",
+      "composite_score": 0.18,
+      "confidence": 0.342,
+      "total_votes": 1193,
+      "website_count": 4,
+      "percentile": 60.29411764705882,
+      "anime_type": null,
+      "episodes": 12,
+      "start_date": "2025-07-03",
+      "studios": [
+        "Shin-Ei Animation",
+        "qooop"
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy",
+        "Sci-Fi"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189069-mDKZPNUNKFOD.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189069-mDKZPNUNKFOD.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/189069-t19Ag9Tqyy8Q.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -0.48,
+          "vote_count": 207,
+          "weight": 5.333,
+          "site_rank": 38,
+          "site_percentile": 43.07692307692308,
+          "url": "https://anilist.co/anime/189069"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.7,
+          "bayesian_score": 6.7,
+          "z_score": 0.529,
+          "vote_count": 146,
+          "weight": 4.984,
+          "site_rank": 25,
+          "site_percentile": 64.17910447761194,
+          "url": "https://bgm.tv/subject/545328"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.8,
+          "bayesian_score": 8.8,
+          "z_score": 1.312,
+          "vote_count": 221,
+          "weight": 4.858,
+          "site_rank": 5,
+          "site_percentile": 94.11764705882352,
+          "url": "https://filmarks.com/animes/4737/6411"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.2,
+          "bayesian_score": 8.2,
+          "z_score": 1.07,
+          "vote_count": 15,
+          "weight": null,
+          "site_rank": 10,
+          "site_percentile": 85.9375,
+          "url": "https://www.imdb.com/title/tt37437763/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.92,
+          "bayesian_score": 6.92,
+          "z_score": -0.398,
+          "vote_count": 619,
+          "weight": 6.428,
+          "site_rank": 40,
+          "site_percentile": 42.64705882352941,
+          "url": "https://myanimelist.net/anime/61274"
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "title": "Tate no Yuusha no Nariagari Season 4",
+      "title_english": "The Rising of the Shield Hero Season 4",
+      "title_japanese": "盾の勇者の成り上がり Season 4",
+      "title_chinese": "盾之勇者成名录 第四季",
+      "composite_score": 0.146,
+      "confidence": 0.624,
+      "total_votes": 31063,
+      "website_count": 5,
+      "percentile": 58.82352941176471,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-09",
+      "studios": [
+        "KADOKAWA",
+        "Kinema Citrus",
+        "Crunchyroll",
+        "Sammy",
+        "Nippon Columbia",
+        "NTT Docomo",
+        "Good Smile Company",
+        "AT-X",
+        "Frontier Works"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx173780-O7v1YfXg61JT.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx173780-O7v1YfXg61JT.png",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": 0.181,
+          "vote_count": 1835,
+          "weight": 7.515,
+          "site_rank": 27,
+          "site_percentile": 60.0,
+          "url": "https://anilist.co/anime/173780"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.5,
+          "bayesian_score": 5.5,
+          "z_score": -0.599,
+          "vote_count": 199,
+          "weight": 5.293,
+          "site_rank": 44,
+          "site_percentile": 35.82089552238806,
+          "url": "https://bgm.tv/subject/476542"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.467,
+          "vote_count": 201,
+          "weight": 4.773,
+          "site_rank": 26,
+          "site_percentile": 63.23529411764706,
+          "url": "https://filmarks.com/animes/220/5918"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.435,
+          "vote_count": 21104,
+          "weight": 7.966,
+          "site_rank": 20,
+          "site_percentile": 70.3125,
+          "url": "https://www.imdb.com/title/tt9529546/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.34,
+          "bayesian_score": 7.34,
+          "z_score": 0.127,
+          "vote_count": 7724,
+          "weight": 8.952,
+          "site_rank": 27,
+          "site_percentile": 61.76470588235294,
+          "url": "https://myanimelist.net/anime/57907"
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "title": "Fei Ren Zai 3rd Season",
+      "title_english": "Non-Human",
+      "title_japanese": "非人哉 第三季",
+      "title_chinese": null,
+      "composite_score": 0.145,
+      "confidence": 0.432,
+      "total_votes": 7763,
+      "website_count": 4,
+      "percentile": 57.35294117647059,
+      "anime_type": "ONA",
+      "episodes": 12,
+      "start_date": "2025-07-22",
+      "studios": [],
+      "genres": [
+        "Comedy",
+        "Mythology",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195886-fbClZwAQm4NR.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195886-fbClZwAQm4NR.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/120055-ac6f9OLH40Yj.jpg",
+      "ratings": [
+        {
+          "website": "bangumi",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": 0.905,
+          "vote_count": 21,
+          "weight": null,
+          "site_rank": 17,
+          "site_percentile": 76.11940298507463,
+          "url": "https://bgm.tv/subject/448677"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.377,
+          "vote_count": 373,
+          "weight": 5.329,
+          "site_rank": 46,
+          "site_percentile": 33.82352941176471,
+          "url": "https://filmarks.com/animes/4139/5582"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.5,
+          "bayesian_score": 8.5,
+          "z_score": 1.451,
+          "vote_count": 6099,
+          "weight": 6.973,
+          "site_rank": 6,
+          "site_percentile": 92.1875,
+          "url": "https://www.imdb.com/title/tt14976292/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.16,
+          "bayesian_score": 7.16,
+          "z_score": -0.098,
+          "vote_count": 1168,
+          "weight": 7.063,
+          "site_rank": 32,
+          "site_percentile": 54.41176470588235,
+          "url": "https://myanimelist.net/anime/37292"
+        },
+        {
+          "website": "anilist",
+          "raw_score": 6.2,
+          "bayesian_score": 6.2,
+          "z_score": -0.811,
+          "vote_count": 123,
+          "weight": 4.812,
+          "site_rank": 47,
+          "site_percentile": 29.230769230769234,
+          "url": "https://anilist.co/anime/120055"
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "title": "Karaoke Iko!",
+      "title_english": "Let's Go Karaoke!",
+      "title_japanese": "カラオケ行こ！",
+      "title_chinese": "去K歌吧！",
+      "composite_score": 0.137,
+      "confidence": 0.35,
+      "total_votes": 1397,
+      "website_count": 4,
+      "percentile": 55.88235294117647,
+      "anime_type": "TV",
+      "episodes": 5,
+      "start_date": "2025-07-24",
+      "studios": [
+        "Doga Kobo",
+        "KADOKAWA"
+      ],
+      "genres": [
+        "Comedy",
+        "Music"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183127-NuhBFFae2NYe.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx183127-NuhBFFae2NYe.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.4,
+          "bayesian_score": 6.4,
+          "z_score": -0.59,
+          "vote_count": 205,
+          "weight": 5.323,
+          "site_rank": 43,
+          "site_percentile": 35.38461538461539,
+          "url": "https://anilist.co/anime/183127"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.3,
+          "bayesian_score": 6.3,
+          "z_score": 0.153,
+          "vote_count": 59,
+          "weight": 4.078,
+          "site_rank": 30,
+          "site_percentile": 56.71641791044776,
+          "url": "https://bgm.tv/subject/519956"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.4,
+          "bayesian_score": 8.4,
+          "z_score": 0.974,
+          "vote_count": 336,
+          "weight": 5.235,
+          "site_rank": 9,
+          "site_percentile": 88.23529411764706,
+          "url": "https://filmarks.com/animes/4597/6222"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": -0.073,
+          "vote_count": 17,
+          "weight": null,
+          "site_rank": 33,
+          "site_percentile": 50.0,
+          "url": "https://www.imdb.com/title/tt34512704/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.28,
+          "bayesian_score": 7.28,
+          "z_score": 0.052,
+          "vote_count": 797,
+          "weight": 6.681,
+          "site_rank": 28,
+          "site_percentile": 60.29411764705882,
+          "url": "https://myanimelist.net/anime/60131"
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "title": "Shin Kidou Senki Gundam Wing: Operation 30th",
+      "title_english": "Mobile Suit Gundam Wing 30th Anniversary Video: Operation 30th",
+      "title_japanese": "【30周年記念映像】新機動戦記ガンダムW-operation30th-",
+      "title_chinese": null,
+      "composite_score": 0.015,
+      "confidence": 0.266,
+      "total_votes": 1544,
+      "website_count": 3,
+      "percentile": 54.41176470588235,
+      "anime_type": null,
+      "episodes": 1,
+      "start_date": "2025-07-25",
+      "studios": [
+        "Sunrise"
+      ],
+      "genres": [
+        "Action",
+        "Mecha",
+        "Music",
+        "Sci-Fi"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196482-LsLzWVLJThXc.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx196482-LsLzWVLJThXc.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/196482-dMdm6A9A9SP1.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.9,
+          "bayesian_score": 6.9,
+          "z_score": -0.039,
+          "vote_count": 206,
+          "weight": 5.328,
+          "site_rank": 28,
+          "site_percentile": 58.46153846153847,
+          "url": "https://anilist.co/anime/196482"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.467,
+          "vote_count": 1223,
+          "weight": 6.398,
+          "site_rank": 27,
+          "site_percentile": 61.76470588235294,
+          "url": "https://filmarks.com/animes/1887/2468"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.81,
+          "bayesian_score": 6.81,
+          "z_score": -0.535,
+          "vote_count": 115,
+          "weight": 4.745,
+          "site_rank": 43,
+          "site_percentile": 38.23529411764706,
+          "url": "https://myanimelist.net/anime/62120"
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "title": "Douluo Dalu: Jiandao Chen Xin",
+      "title_english": "",
+      "title_japanese": "斗罗大陆剧场版 剑道尘心",
+      "title_chinese": null,
+      "composite_score": 0.001,
+      "confidence": 0.131,
+      "total_votes": 226,
+      "website_count": 2,
+      "percentile": 52.94117647058824,
+      "anime_type": "ONA",
+      "episodes": 1,
+      "start_date": "2025-07-12",
+      "studios": [
+        "Sparkly Key Animation Studio"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Historical",
+        "Martial Arts"
+      ],
+      "poster_image": null,
+      "cover_image": null,
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "bangumi",
+          "raw_score": 5.2,
+          "bayesian_score": 5.2,
+          "z_score": -0.88,
+          "vote_count": 18,
+          "weight": null,
+          "site_rank": 51,
+          "site_percentile": 25.37313432835821,
+          "url": "https://bgm.tv/subject/505397"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.129,
+          "vote_count": 102,
+          "weight": 4.162,
+          "site_rank": 35,
+          "site_percentile": 50.0,
+          "url": "https://filmarks.com/animes/3171/4010"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.15,
+          "bayesian_score": 7.15,
+          "z_score": -0.11,
+          "vote_count": 124,
+          "weight": 4.82,
+          "site_rank": 33,
+          "site_percentile": 52.94117647058824,
+          "url": "https://myanimelist.net/anime/61748"
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "title": "Game Center Shoujo to Ibunka Kouryuu",
+      "title_english": "Cultural Exchange With a Game Centre Girl",
+      "title_japanese": "ゲーセン少女と異文化交流",
+      "title_chinese": "与游戏中心的少女异文化交流的故事",
+      "composite_score": -0.008,
+      "confidence": 0.52,
+      "total_votes": 5553,
+      "website_count": 5,
+      "percentile": 51.470588235294116,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Nomad"
+      ],
+      "genres": [
+        "Comedy",
+        "Love Status Quo",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180794-rQGxkguEc2ov.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180794-rQGxkguEc2ov.png",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -0.48,
+          "vote_count": 837,
+          "weight": 6.73,
+          "site_rank": 39,
+          "site_percentile": 41.53846153846154,
+          "url": "https://anilist.co/anime/180794"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": 0.811,
+          "vote_count": 1322,
+          "weight": 7.187,
+          "site_rank": 21,
+          "site_percentile": 70.1492537313433,
+          "url": "https://bgm.tv/subject/510256"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.129,
+          "vote_count": 129,
+          "weight": 4.374,
+          "site_rank": 36,
+          "site_percentile": 48.529411764705884,
+          "url": "https://filmarks.com/animes/4621/6250"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.5,
+          "bayesian_score": 7.5,
+          "z_score": 0.181,
+          "vote_count": 75,
+          "weight": 3.454,
+          "site_rank": 25,
+          "site_percentile": 62.5,
+          "url": "https://www.imdb.com/title/tt35652489/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.84,
+          "bayesian_score": 6.84,
+          "z_score": -0.498,
+          "vote_count": 3190,
+          "weight": 8.068,
+          "site_rank": 42,
+          "site_percentile": 39.705882352941174,
+          "url": "https://myanimelist.net/anime/59689"
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "title": "Tsuihousha Shokudou e Youkoso!",
+      "title_english": "Welcome to the Outcast's Restaurant!",
+      "title_japanese": "追放者食堂へようこそ！",
+      "title_chinese": "欢迎光临流放者食堂！",
+      "composite_score": -0.022,
+      "confidence": 0.528,
+      "total_votes": 6364,
+      "website_count": 5,
+      "percentile": 50.0,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-04",
+      "studios": [
+        "Avex Pictures",
+        "OLM",
+        "AT-X",
+        "OVERLAP",
+        "BS11",
+        "CBC TV",
+        "HIKE",
+        "TOKYO MX",
+        "OLM",
+        "Bit Grooove Promotion",
+        "KLOCKWORX",
+        "MAGNET"
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185544-V9XoC8yJ906f.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185544-V9XoC8yJ906f.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.7,
+          "bayesian_score": 6.7,
+          "z_score": -0.26,
+          "vote_count": 1011,
+          "weight": 6.919,
+          "site_rank": 34,
+          "site_percentile": 49.23076923076923,
+          "url": "https://anilist.co/anime/185544"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.9,
+          "bayesian_score": 5.9,
+          "z_score": -0.223,
+          "vote_count": 438,
+          "weight": 6.082,
+          "site_rank": 35,
+          "site_percentile": 49.25373134328358,
+          "url": "https://bgm.tv/subject/528831"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 0.298,
+          "vote_count": 236,
+          "weight": 4.917,
+          "site_rank": 30,
+          "site_percentile": 57.35294117647059,
+          "url": "https://filmarks.com/animes/4635/6267"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.435,
+          "vote_count": 83,
+          "weight": 3.535,
+          "site_rank": 21,
+          "site_percentile": 68.75,
+          "url": "https://www.imdb.com/title/tt36600399/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.19,
+          "bayesian_score": 7.19,
+          "z_score": -0.06,
+          "vote_count": 4596,
+          "weight": 8.433,
+          "site_rank": 31,
+          "site_percentile": 55.88235294117647,
+          "url": "https://myanimelist.net/anime/60523"
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "title": "Bad Girl",
+      "title_english": "Bad Girl",
+      "title_japanese": "ばっどがーる",
+      "title_chinese": "不良少女",
+      "composite_score": -0.096,
+      "confidence": 0.405,
+      "total_votes": 4424,
+      "website_count": 4,
+      "percentile": 48.529411764705884,
+      "anime_type": "ONA",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Bridge",
+        "King Records"
+      ],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178675-cTYMOedSpXsJ.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178675-cTYMOedSpXsJ.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -0.48,
+          "vote_count": 722,
+          "weight": 6.582,
+          "site_rank": 40,
+          "site_percentile": 40.0,
+          "url": "https://anilist.co/anime/178675"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.7,
+          "bayesian_score": 6.7,
+          "z_score": 0.529,
+          "vote_count": 1009,
+          "weight": 6.917,
+          "site_rank": 26,
+          "site_percentile": 62.68656716417911,
+          "url": "https://bgm.tv/subject/501614"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 0.298,
+          "vote_count": 174,
+          "weight": 4.643,
+          "site_rank": 31,
+          "site_percentile": 55.88235294117647,
+          "url": "https://filmarks.com/animes/4502/6086"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -1.089,
+          "vote_count": 33,
+          "weight": null,
+          "site_rank": 56,
+          "site_percentile": 14.0625,
+          "url": "https://www.imdb.com/title/tt35652446/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.79,
+          "bayesian_score": 6.79,
+          "z_score": -0.56,
+          "vote_count": 2519,
+          "weight": 7.832,
+          "site_rank": 44,
+          "site_percentile": 36.76470588235294,
+          "url": "https://myanimelist.net/anime/59161"
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "title": "Jigoku Sensei Nube (2025)",
+      "title_english": "Hell Teacher: Jigoku Sensei Nube",
+      "title_japanese": "地獄先生ぬ～べ～",
+      "title_chinese": "地狱老师 OVA",
+      "composite_score": -0.172,
+      "confidence": 0.294,
+      "total_votes": 3375,
+      "website_count": 3,
+      "percentile": 47.05882352941176,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-02",
+      "studios": [
+        "Studio Kai"
+      ],
+      "genres": [
+        "Comedy",
+        "Horror",
+        "Mythology",
+        "School",
+        "Shounen",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2012.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/2012.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/2012-8BtBvNe85st0.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": 0.291,
+          "vote_count": 1029,
+          "weight": 6.936,
+          "site_rank": 25,
+          "site_percentile": 63.07692307692307,
+          "url": "https://anilist.co/anime/2012"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": 0.623,
+          "vote_count": 22,
+          "weight": null,
+          "site_rank": 24,
+          "site_percentile": 65.67164179104478,
+          "url": "https://bgm.tv/subject/158801"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": -0.039,
+          "vote_count": 493,
+          "weight": 5.58,
+          "site_rank": 40,
+          "site_percentile": 42.64705882352941,
+          "url": "https://filmarks.com/animes/4517/6110"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": -0.073,
+          "vote_count": 47,
+          "weight": null,
+          "site_rank": 34,
+          "site_percentile": 48.4375,
+          "url": "https://www.imdb.com/title/tt34754751/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.68,
+          "bayesian_score": 6.68,
+          "z_score": -0.698,
+          "vote_count": 1853,
+          "weight": 7.525,
+          "site_rank": 48,
+          "site_percentile": 30.88235294117647,
+          "url": "https://myanimelist.net/anime/59342"
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "title": "Utagoe wa Mille-Feuille",
+      "title_english": "Harmony of Mille-Feuille",
+      "title_japanese": "うたごえはミルフィーユ",
+      "title_chinese": "歌声是千层派",
+      "composite_score": -0.193,
+      "confidence": 0.794,
+      "total_votes": 522847,
+      "website_count": 5,
+      "percentile": 45.588235294117645,
+      "anime_type": "TV",
+      "episodes": 10,
+      "start_date": "2025-07-17",
+      "studios": [
+        "Jumondou"
+      ],
+      "genres": [
+        "Music",
+        "School"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166215-3GkidWAYu5cr.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx166215-3GkidWAYu5cr.png",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 5.3,
+          "bayesian_score": 5.3,
+          "z_score": -1.803,
+          "vote_count": 109,
+          "weight": 4.691,
+          "site_rank": 62,
+          "site_percentile": 6.153846153846154,
+          "url": "https://anilist.co/anime/166215"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.4,
+          "bayesian_score": 5.4,
+          "z_score": -0.692,
+          "vote_count": 298,
+          "weight": 5.697,
+          "site_rank": 48,
+          "site_percentile": 29.850746268656714,
+          "url": "https://bgm.tv/subject/441670"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": -0.208,
+          "vote_count": 69,
+          "weight": 3.811,
+          "site_rank": 43,
+          "site_percentile": 38.23529411764706,
+          "url": "https://filmarks.com/animes/4563/6171"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.13,
+          "bayesian_score": 6.13,
+          "z_score": -1.385,
+          "vote_count": 315,
+          "weight": 5.753,
+          "site_rank": 64,
+          "site_percentile": 7.352941176470589,
+          "url": "https://myanimelist.net/anime/55689"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 8.5,
+          "bayesian_score": 8.5,
+          "z_score": 1.451,
+          "vote_count": 522056,
+          "weight": 10.532,
+          "site_rank": 7,
+          "site_percentile": 90.625,
+          "url": "https://www.imdb.com/title/tt1442437/"
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "title": "Mattaku Saikin no Tantei to Kitara",
+      "title_english": "Detectives These Days Are Crazy!",
+      "title_japanese": "まったく最近の探偵ときたら",
+      "title_chinese": "最近的侦探真没用",
+      "composite_score": -0.222,
+      "confidence": 0.529,
+      "total_votes": 6403,
+      "website_count": 5,
+      "percentile": 44.11764705882353,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-01",
+      "studios": [
+        "KADOKAWA",
+        "LIDENFILMS",
+        "Ultra Super Pictures",
+        "BS11",
+        "AT-X",
+        "Culture Entertainment"
+      ],
+      "genres": [
+        "Comedy",
+        "Mystery"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180460-rZn4pp9YNqW0.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx180460-rZn4pp9YNqW0.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/180460-Id13IZ4FSBuf.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.7,
+          "bayesian_score": 6.7,
+          "z_score": -0.26,
+          "vote_count": 1032,
+          "weight": 6.939,
+          "site_rank": 35,
+          "site_percentile": 47.69230769230769,
+          "url": "https://anilist.co/anime/180460"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.4,
+          "bayesian_score": 6.4,
+          "z_score": 0.247,
+          "vote_count": 743,
+          "weight": 6.611,
+          "site_rank": 27,
+          "site_percentile": 61.19402985074627,
+          "url": "https://bgm.tv/subject/509216"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.129,
+          "vote_count": 226,
+          "weight": 4.878,
+          "site_rank": 37,
+          "site_percentile": 47.05882352941176,
+          "url": "https://filmarks.com/animes/4541/6140"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -1.597,
+          "vote_count": 122,
+          "weight": 3.843,
+          "site_rank": 61,
+          "site_percentile": 6.25,
+          "url": "https://www.imdb.com/title/tt36988220/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.13,
+          "bayesian_score": 7.13,
+          "z_score": -0.135,
+          "vote_count": 4280,
+          "weight": 8.362,
+          "site_rank": 34,
+          "site_percentile": 51.470588235294116,
+          "url": "https://myanimelist.net/anime/59632"
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "title": "Puniru wa Kawaii Slime 2nd Season",
+      "title_english": "Puniru is a Kawaii Slime Season 2",
+      "title_japanese": "ぷにるはかわいいスライム 第2期",
+      "title_chinese": "噗妮露是可爱史莱姆 第二季",
+      "composite_score": -0.224,
+      "confidence": 0.449,
+      "total_votes": 1705,
+      "website_count": 5,
+      "percentile": 42.64705882352941,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "TOHO animation STUDIO",
+        "Toho",
+        "TV Tokyo",
+        "Shogakukan",
+        "Shogakukan-Shueisha Productions"
+      ],
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Romance",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185755-xMle6RCAPwA6.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185755-xMle6RCAPwA6.png",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185755-moB5bSDuJNm7.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -0.921,
+          "vote_count": 152,
+          "weight": 5.024,
+          "site_rank": 51,
+          "site_percentile": 23.076923076923077,
+          "url": "https://anilist.co/anime/185755"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 1.187,
+          "vote_count": 570,
+          "weight": 6.346,
+          "site_rank": 9,
+          "site_percentile": 88.05970149253731,
+          "url": "https://bgm.tv/subject/530115"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.129,
+          "vote_count": 411,
+          "weight": 5.417,
+          "site_rank": 38,
+          "site_percentile": 45.588235294117645,
+          "url": "https://filmarks.com/animes/4354/5868"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 5.7,
+          "bayesian_score": 5.7,
+          "z_score": -2.105,
+          "vote_count": 105,
+          "weight": 3.723,
+          "site_rank": 62,
+          "site_percentile": 4.6875,
+          "url": "https://www.imdb.com/title/tt33498499/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.01,
+          "bayesian_score": 7.01,
+          "z_score": -0.285,
+          "vote_count": 467,
+          "weight": 6.146,
+          "site_rank": 37,
+          "site_percentile": 47.05882352941176,
+          "url": "https://myanimelist.net/anime/60603"
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "title": "Mizu Zokusei no Mahoutsukai",
+      "title_english": "The Water Magician",
+      "title_japanese": "水属性の魔法使い",
+      "title_chinese": "水属性的魔法师",
+      "composite_score": -0.33,
+      "confidence": 0.58,
+      "total_votes": 15011,
+      "website_count": 5,
+      "percentile": 41.17647058823529,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-04",
+      "studios": [
+        "Typhoon Graphics",
+        "WonderLand"
+      ],
+      "genres": [
+        "Adult Cast",
+        "Adventure",
+        "Fantasy",
+        "Isekai",
+        "Reincarnation"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186052-zq8h0Qo0O0sP.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186052-zq8h0Qo0O0sP.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.149,
+          "vote_count": 2520,
+          "weight": 7.832,
+          "site_rank": 31,
+          "site_percentile": 53.84615384615385,
+          "url": "https://anilist.co/anime/186052"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.5,
+          "bayesian_score": 5.5,
+          "z_score": -0.599,
+          "vote_count": 493,
+          "weight": 6.201,
+          "site_rank": 45,
+          "site_percentile": 34.32835820895522,
+          "url": "https://bgm.tv/subject/532403"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.2,
+          "bayesian_score": 6.2,
+          "z_score": -0.884,
+          "vote_count": 192,
+          "weight": 4.732,
+          "site_rank": 57,
+          "site_percentile": 17.647058823529413,
+          "url": "https://filmarks.com/animes/4664/6311"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": -0.327,
+          "vote_count": 334,
+          "weight": 4.649,
+          "site_rank": 40,
+          "site_percentile": 39.0625,
+          "url": "https://www.imdb.com/title/tt36592736/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.22,
+          "bayesian_score": 7.22,
+          "z_score": -0.023,
+          "vote_count": 11472,
+          "weight": 9.348,
+          "site_rank": 29,
+          "site_percentile": 58.82352941176471,
+          "url": "https://myanimelist.net/anime/60732"
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "title": "Zutaboro Reijou wa Ane no Moto Konyakusha ni Dekiai Sareru",
+      "title_english": "Betrothed to My Sister's Ex",
+      "title_japanese": "ずたぼろ令嬢は姉の元婚約者に溺愛される",
+      "title_chinese": "衣衫褴褛的大小姐受到姐姐前未婚夫的宠爱",
+      "composite_score": -0.342,
+      "confidence": 0.513,
+      "total_votes": 4918,
+      "website_count": 5,
+      "percentile": 39.705882352941174,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-05",
+      "studios": [
+        "LandQ studios",
+        "Mainichi Broadcasting System",
+        "TBS"
+      ],
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179879-569v3MdQeVmt.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179879-569v3MdQeVmt.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/179879-LLw7UPZcd22x.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.149,
+          "vote_count": 805,
+          "weight": 6.691,
+          "site_rank": 32,
+          "site_percentile": 52.307692307692314,
+          "url": "https://anilist.co/anime/179879"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 4.7,
+          "bayesian_score": 4.7,
+          "z_score": -1.35,
+          "vote_count": 78,
+          "weight": 4.357,
+          "site_rank": 63,
+          "site_percentile": 7.462686567164178,
+          "url": "https://bgm.tv/subject/505782"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.4,
+          "bayesian_score": 6.4,
+          "z_score": -0.715,
+          "vote_count": 145,
+          "weight": 4.479,
+          "site_rank": 54,
+          "site_percentile": 22.058823529411764,
+          "url": "https://filmarks.com/animes/4644/6279"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 0.308,
+          "vote_count": 92,
+          "weight": 3.617,
+          "site_rank": 23,
+          "site_percentile": 65.625,
+          "url": "https://www.imdb.com/title/tt35652469/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": -0.048,
+          "vote_count": 3798,
+          "weight": 8.242,
+          "site_rank": 30,
+          "site_percentile": 57.35294117647059,
+          "url": "https://myanimelist.net/anime/59421"
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "title": "Tougen Anki",
+      "title_english": "TOUGEN ANKI",
+      "title_japanese": "桃源暗鬼",
+      "title_chinese": "桃源暗鬼",
+      "composite_score": -0.355,
+      "confidence": 0.555,
+      "total_votes": 9884,
+      "website_count": 5,
+      "percentile": 38.23529411764706,
+      "anime_type": "TV",
+      "episodes": 24,
+      "start_date": "2025-07-11",
+      "studios": [
+        "Pony Canyon",
+        "Studio Hibari",
+        "Dentsu",
+        "Nippon Television Network",
+        "Akita Shoten",
+        "Studio Hibari"
+      ],
+      "genres": [
+        "Action",
+        "Mystery",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177474-oHil1yLWldfl.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177474-oHil1yLWldfl.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.149,
+          "vote_count": 1619,
+          "weight": 7.39,
+          "site_rank": 33,
+          "site_percentile": 50.76923076923077,
+          "url": "https://anilist.co/anime/177474"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.1,
+          "bayesian_score": 5.1,
+          "z_score": -0.974,
+          "vote_count": 135,
+          "weight": 4.905,
+          "site_rank": 53,
+          "site_percentile": 22.388059701492537,
+          "url": "https://bgm.tv/subject/493546"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": -0.039,
+          "vote_count": 530,
+          "weight": 5.646,
+          "site_rank": 41,
+          "site_percentile": 41.17647058823529,
+          "url": "https://filmarks.com/animes/4472/6037"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.9,
+          "bayesian_score": 6.9,
+          "z_score": -0.581,
+          "vote_count": 466,
+          "weight": 4.915,
+          "site_rank": 46,
+          "site_percentile": 29.6875,
+          "url": "https://www.imdb.com/title/tt32344704/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.03,
+          "bayesian_score": 7.03,
+          "z_score": -0.26,
+          "vote_count": 7134,
+          "weight": 8.873,
+          "site_rank": 35,
+          "site_percentile": 50.0,
+          "url": "https://myanimelist.net/anime/58811"
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "title": "Long Zu II: Daowangzhe Zhi Tong",
+      "title_english": "Dragon Raja II -The Mourner's Eyes-",
+      "title_japanese": "龙族Ⅱ：悼亡者之瞳",
+      "title_chinese": null,
+      "composite_score": -0.421,
+      "confidence": 0.48,
+      "total_votes": 2865,
+      "website_count": 5,
+      "percentile": 36.76470588235294,
+      "anime_type": "ONA",
+      "episodes": 24,
+      "start_date": "2025-07-18",
+      "studios": [
+        "GARDEN Culture"
+      ],
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx157692-lihmnuJGcbM6.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx157692-lihmnuJGcbM6.png",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -0.48,
+          "vote_count": 125,
+          "weight": 4.828,
+          "site_rank": 41,
+          "site_percentile": 38.46153846153847,
+          "url": "https://anilist.co/anime/157692"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 4.1,
+          "bayesian_score": 4.1,
+          "z_score": -1.914,
+          "vote_count": 57,
+          "weight": 4.043,
+          "site_rank": 65,
+          "site_percentile": 4.477611940298507,
+          "url": "https://bgm.tv/subject/408897"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 5.8,
+          "bayesian_score": 5.8,
+          "z_score": -1.222,
+          "vote_count": 279,
+          "weight": 5.068,
+          "site_rank": 62,
+          "site_percentile": 10.294117647058822,
+          "url": "https://filmarks.com/animes/4398/5932"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.59,
+          "bayesian_score": 7.59,
+          "z_score": 0.439,
+          "vote_count": 414,
+          "weight": 6.026,
+          "site_rank": 24,
+          "site_percentile": 66.17647058823529,
+          "url": "https://myanimelist.net/anime/59662"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.7,
+          "bayesian_score": 7.7,
+          "z_score": 0.435,
+          "vote_count": 1990,
+          "weight": 6.077,
+          "site_rank": 22,
+          "site_percentile": 67.1875,
+          "url": "https://www.imdb.com/title/tt0873992/"
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "title": "Isekai Mokushiroku Mynoghra: Hametsu no Bunmei de Hajimeru Sekai Seifuku",
+      "title_english": "Apocalypse Bringer Mynoghra: World Conquest Starts with the Civilization of Ruin",
+      "title_japanese": "異世界黙示録マイノグーラ ～破滅の文明で始める世界征服～",
+      "title_chinese": "异世界默示录米诺戈拉 ～从灭亡的文明开始的世界征服～",
+      "composite_score": -0.439,
+      "confidence": 0.549,
+      "total_votes": 9037,
+      "website_count": 5,
+      "percentile": 35.294117647058826,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Maho Film",
+        "Happinet Media Marketing",
+        "Maho Film",
+        "Asmik Ace",
+        "Micro Magazine Sha",
+        "arma bianca",
+        "Bandai Namco Music Live",
+        "BS Nittele",
+        "KLOCKWORX"
+      ],
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Fantasy",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178433-8KzNsjTmdAvw.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx178433-8KzNsjTmdAvw.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.7,
+          "bayesian_score": 6.7,
+          "z_score": -0.26,
+          "vote_count": 1488,
+          "weight": 7.305,
+          "site_rank": 36,
+          "site_percentile": 46.15384615384615,
+          "url": "https://anilist.co/anime/178433"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.5,
+          "bayesian_score": 5.5,
+          "z_score": -0.599,
+          "vote_count": 258,
+          "weight": 5.553,
+          "site_rank": 46,
+          "site_percentile": 32.83582089552239,
+          "url": "https://bgm.tv/subject/500825"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 5.8,
+          "bayesian_score": 5.8,
+          "z_score": -1.222,
+          "vote_count": 78,
+          "weight": 3.921,
+          "site_rank": 63,
+          "site_percentile": 8.823529411764707,
+          "url": "https://filmarks.com/animes/4683/6342"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.3,
+          "bayesian_score": 7.3,
+          "z_score": -0.073,
+          "vote_count": 179,
+          "weight": 4.15,
+          "site_rank": 35,
+          "site_percentile": 46.875,
+          "url": "https://www.imdb.com/title/tt32731400/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.99,
+          "bayesian_score": 6.99,
+          "z_score": -0.31,
+          "vote_count": 7034,
+          "weight": 8.859,
+          "site_rank": 39,
+          "site_percentile": 44.11764705882353,
+          "url": "https://myanimelist.net/anime/59130"
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "title": "Kakkou no Iinazuke Season 2",
+      "title_english": "A Couple of Cuckoos Season 2",
+      "title_japanese": "カッコウの許嫁 Season2",
+      "title_chinese": "杜鹃的婚约 第二季",
+      "composite_score": -0.441,
+      "confidence": 0.536,
+      "total_votes": 7175,
+      "website_count": 5,
+      "percentile": 33.82352941176471,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-08",
+      "studios": [
+        "KADOKAWA",
+        "Okuruto Noboru",
+        "Kodansha",
+        "Crunchyroll",
+        "BS Nittele",
+        "Bit Grooove Promotion",
+        "Okuruto Noboru"
+      ],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179828-Yc1b1R2dxQyc.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179828-Yc1b1R2dxQyc.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.7,
+          "bayesian_score": 6.7,
+          "z_score": -0.26,
+          "vote_count": 836,
+          "weight": 6.729,
+          "site_rank": 37,
+          "site_percentile": 44.61538461538462,
+          "url": "https://anilist.co/anime/179828"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.1,
+          "bayesian_score": 5.1,
+          "z_score": -0.974,
+          "vote_count": 141,
+          "weight": 4.949,
+          "site_rank": 54,
+          "site_percentile": 20.8955223880597,
+          "url": "https://bgm.tv/subject/505303"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": -0.039,
+          "vote_count": 145,
+          "weight": 4.479,
+          "site_rank": 42,
+          "site_percentile": 39.705882352941174,
+          "url": "https://filmarks.com/animes/2717/6118"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.708,
+          "vote_count": 2353,
+          "weight": 6.211,
+          "site_rank": 49,
+          "site_percentile": 25.0,
+          "url": "https://www.imdb.com/title/tt14400866/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 7.01,
+          "bayesian_score": 7.01,
+          "z_score": -0.285,
+          "vote_count": 3700,
+          "weight": 8.216,
+          "site_rank": 38,
+          "site_percentile": 45.588235294117645,
+          "url": "https://myanimelist.net/anime/59402"
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "title": "Leviathan",
+      "title_english": "Leviathan",
+      "title_japanese": "リヴァイアサン",
+      "title_chinese": "利维坦号战记",
+      "composite_score": -0.501,
+      "confidence": 0.479,
+      "total_votes": 2810,
+      "website_count": 5,
+      "percentile": 32.35294117647059,
+      "anime_type": "ONA",
+      "episodes": 12,
+      "start_date": "2025-07-10",
+      "studios": [
+        "Orange",
+        "Qubic Pictures"
+      ],
+      "genres": [
+        "Adventure",
+        "Mecha",
+        "Sci-Fi"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177887-CDAgIrZOQvZc.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177887-CDAgIrZOQvZc.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/177887-wGy2HdlQdS9G.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -0.48,
+          "vote_count": 505,
+          "weight": 6.225,
+          "site_rank": 42,
+          "site_percentile": 36.92307692307693,
+          "url": "https://anilist.co/anime/177887"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 4.9,
+          "bayesian_score": 4.9,
+          "z_score": -1.162,
+          "vote_count": 59,
+          "weight": 4.078,
+          "site_rank": 58,
+          "site_percentile": 14.925373134328357,
+          "url": "https://bgm.tv/subject/497923"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.8,
+          "bayesian_score": 7.8,
+          "z_score": 0.467,
+          "vote_count": 157,
+          "weight": 4.551,
+          "site_rank": 28,
+          "site_percentile": 60.29411764705882,
+          "url": "https://filmarks.com/animes/4491/6061"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.962,
+          "vote_count": 426,
+          "weight": 4.844,
+          "site_rank": 54,
+          "site_percentile": 17.1875,
+          "url": "https://www.imdb.com/title/tt32581507/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.88,
+          "bayesian_score": 6.88,
+          "z_score": -0.448,
+          "vote_count": 1663,
+          "weight": 7.416,
+          "site_rank": 41,
+          "site_percentile": 41.17647058823529,
+          "url": "https://myanimelist.net/anime/59005"
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "title": "Osomatsu-san 4th Season",
+      "title_english": "Mr. Osomatsu 4th Season",
+      "title_japanese": "おそ松さん 第4期",
+      "title_chinese": "阿松 第四季",
+      "composite_score": -0.623,
+      "confidence": 0.339,
+      "total_votes": 1135,
+      "website_count": 4,
+      "percentile": 30.88235294117647,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-09",
+      "studios": [
+        "Pierrot Films"
+      ],
+      "genres": [
+        "Adult Cast",
+        "Comedy",
+        "Gag Humor",
+        "Parody"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx145985-yIeSw33Stvnx.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx145985-yIeSw33Stvnx.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 4.8,
+          "bayesian_score": 4.8,
+          "z_score": -2.354,
+          "vote_count": 63,
+          "weight": 4.143,
+          "site_rank": 65,
+          "site_percentile": 1.5384615384615385,
+          "url": "https://anilist.co/anime/145985"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.5,
+          "bayesian_score": 5.5,
+          "z_score": -0.599,
+          "vote_count": 28,
+          "weight": null,
+          "site_rank": 47,
+          "site_percentile": 31.343283582089555,
+          "url": "https://bgm.tv/subject/497881"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 0.298,
+          "vote_count": 220,
+          "weight": 4.854,
+          "site_rank": 32,
+          "site_percentile": 54.41176470588235,
+          "url": "https://filmarks.com/animes/283/6302"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.054,
+          "vote_count": 500,
+          "weight": 4.972,
+          "site_rank": 28,
+          "site_percentile": 57.8125,
+          "url": "https://www.imdb.com/title/tt4838372/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.65,
+          "bayesian_score": 6.65,
+          "z_score": -0.735,
+          "vote_count": 352,
+          "weight": 5.864,
+          "site_rank": 50,
+          "site_percentile": 27.941176470588236,
+          "url": "https://myanimelist.net/anime/58996"
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "title": "SUGAR SUGAR RUNE: Les deux sorcières",
+      "title_english": "Sugar Sugar Rune: Les deux sorcières",
+      "title_japanese": "SUGAR SUGAR RUNE: Les deux sorcières",
+      "title_chinese": null,
+      "composite_score": -0.625,
+      "confidence": 0.146,
+      "total_votes": 420,
+      "website_count": 2,
+      "percentile": 29.411764705882355,
+      "anime_type": "Special",
+      "episodes": 1,
+      "start_date": "2025-07-04",
+      "studios": [
+        "Studio Khara"
+      ],
+      "genres": [
+        "Fantasy",
+        "Mahou Shoujo"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195517-7rdcy3jbuW81.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx195517-7rdcy3jbuW81.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.3,
+          "bayesian_score": 6.3,
+          "z_score": -0.701,
+          "vote_count": 133,
+          "weight": 4.89,
+          "site_rank": 44,
+          "site_percentile": 33.84615384615385,
+          "url": "https://anilist.co/anime/195517"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.6,
+          "bayesian_score": 5.6,
+          "z_score": -0.505,
+          "vote_count": 19,
+          "weight": null,
+          "site_rank": 42,
+          "site_percentile": 38.80597014925373,
+          "url": "https://bgm.tv/subject/568245"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.377,
+          "vote_count": 1,
+          "weight": null,
+          "site_rank": 47,
+          "site_percentile": 32.35294117647059,
+          "url": "https://filmarks.com/animes/4870/6619"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.79,
+          "bayesian_score": 6.79,
+          "z_score": -0.56,
+          "vote_count": 287,
+          "weight": 5.659,
+          "site_rank": 45,
+          "site_percentile": 35.294117647058826,
+          "url": "https://myanimelist.net/anime/61997"
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "title": "Turkey!",
+      "title_english": "Turkey! Time to Strike",
+      "title_japanese": "Turkey!",
+      "title_chinese": "保龄球少女！",
+      "composite_score": -0.649,
+      "confidence": 0.389,
+      "total_votes": 3141,
+      "website_count": 4,
+      "percentile": 27.941176470588236,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-09",
+      "studios": [
+        "Bakken Record"
+      ],
+      "genres": [
+        "Historical",
+        "Sports",
+        "Time Travel"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx159483-nQKJ2EEqoo8x.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx159483-nQKJ2EEqoo8x.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/159483-XG5lHavBPS0w.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 5.8,
+          "bayesian_score": 5.8,
+          "z_score": -1.252,
+          "vote_count": 576,
+          "weight": 6.356,
+          "site_rank": 60,
+          "site_percentile": 9.230769230769232,
+          "url": "https://anilist.co/anime/159483"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -0.129,
+          "vote_count": 764,
+          "weight": 6.639,
+          "site_rank": 34,
+          "site_percentile": 50.74626865671642,
+          "url": "https://bgm.tv/subject/413567"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.6,
+          "bayesian_score": 7.6,
+          "z_score": 0.298,
+          "vote_count": 200,
+          "weight": 4.768,
+          "site_rank": 33,
+          "site_percentile": 52.94117647058824,
+          "url": "https://filmarks.com/animes/4446/6004"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -1.089,
+          "vote_count": 26,
+          "weight": null,
+          "site_rank": 57,
+          "site_percentile": 12.5,
+          "url": "https://www.imdb.com/title/tt36074011/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.27,
+          "bayesian_score": 6.27,
+          "z_score": -1.21,
+          "vote_count": 1601,
+          "weight": 7.378,
+          "site_rank": 60,
+          "site_percentile": 13.23529411764706,
+          "url": "https://myanimelist.net/anime/54028"
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "title": "Dekin no Mogura",
+      "title_english": "Dekin no Mogura: The Earthbound Mole",
+      "title_japanese": "出禁のモグラ",
+      "title_chinese": "禁止出入的鼹鼠",
+      "composite_score": -0.65,
+      "confidence": 0.475,
+      "total_votes": 2622,
+      "website_count": 5,
+      "percentile": 26.47058823529412,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-07",
+      "studios": [
+        "Brain's Base"
+      ],
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Seinen",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184574-Mb2qvX1e3RgG.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184574-Mb2qvX1e3RgG.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 5.7,
+          "bayesian_score": 5.7,
+          "z_score": -1.362,
+          "vote_count": 438,
+          "weight": 6.082,
+          "site_rank": 61,
+          "site_percentile": 7.6923076923076925,
+          "url": "https://anilist.co/anime/184574"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.9,
+          "bayesian_score": 5.9,
+          "z_score": -0.223,
+          "vote_count": 194,
+          "weight": 5.268,
+          "site_rank": 36,
+          "site_percentile": 47.76119402985074,
+          "url": "https://bgm.tv/subject/524289"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.0,
+          "bayesian_score": 8.0,
+          "z_score": 0.636,
+          "vote_count": 325,
+          "weight": 5.205,
+          "site_rank": 21,
+          "site_percentile": 70.58823529411765,
+          "url": "https://filmarks.com/animes/4605/6233"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": -0.454,
+          "vote_count": 54,
+          "weight": 3.191,
+          "site_rank": 43,
+          "site_percentile": 34.375,
+          "url": "https://www.imdb.com/title/tt35995444/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.15,
+          "bayesian_score": 6.15,
+          "z_score": -1.36,
+          "vote_count": 1611,
+          "weight": 7.385,
+          "site_rank": 63,
+          "site_percentile": 8.823529411764707,
+          "url": "https://myanimelist.net/anime/60315"
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "title": "Koujo Denka no Kateikyoushi",
+      "title_english": "Private Tutor to the Duke's Daughter",
+      "title_japanese": "公女殿下の家庭教師",
+      "title_chinese": "公爵千金的家庭教师",
+      "composite_score": -0.653,
+      "confidence": 0.526,
+      "total_votes": 6083,
+      "website_count": 5,
+      "percentile": 25.0,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Studio Blanc."
+      ],
+      "genres": [
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170113-dk9h9ybZnGnZ.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx170113-dk9h9ybZnGnZ.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.3,
+          "bayesian_score": 6.3,
+          "z_score": -0.701,
+          "vote_count": 1069,
+          "weight": 6.974,
+          "site_rank": 45,
+          "site_percentile": 32.30769230769231,
+          "url": "https://anilist.co/anime/170113"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.8,
+          "bayesian_score": 5.8,
+          "z_score": -0.317,
+          "vote_count": 524,
+          "weight": 6.261,
+          "site_rank": 39,
+          "site_percentile": 43.28358208955223,
+          "url": "https://bgm.tv/subject/459616"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 5.4,
+          "bayesian_score": 5.4,
+          "z_score": -1.56,
+          "vote_count": 99,
+          "weight": 4.136,
+          "site_rank": 64,
+          "site_percentile": 7.352941176470589,
+          "url": "https://filmarks.com/animes/4659/6306"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.054,
+          "vote_count": 110,
+          "weight": 3.76,
+          "site_rank": 29,
+          "site_percentile": 56.25,
+          "url": "https://www.imdb.com/title/tt32536624/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.65,
+          "bayesian_score": 6.65,
+          "z_score": -0.735,
+          "vote_count": 4281,
+          "weight": 8.362,
+          "site_rank": 51,
+          "site_percentile": 26.47058823529412,
+          "url": "https://myanimelist.net/anime/56907"
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "title": "Fermat no Ryouri",
+      "title_english": "Fermat Kitchen",
+      "title_japanese": "フェルマーの料理",
+      "title_chinese": "费马的料理",
+      "composite_score": -0.654,
+      "confidence": 0.472,
+      "total_votes": 2506,
+      "website_count": 5,
+      "percentile": 23.52941176470588,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-05",
+      "studios": [
+        "SKY Perfect Pictures",
+        "TV Asahi",
+        "domerica"
+      ],
+      "genres": [
+        "Drama",
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186003-scKw8JoTtnMT.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186003-scKw8JoTtnMT.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.2,
+          "bayesian_score": 6.2,
+          "z_score": -0.811,
+          "vote_count": 370,
+          "weight": 5.914,
+          "site_rank": 48,
+          "site_percentile": 27.692307692307693,
+          "url": "https://anilist.co/anime/186003"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 4.9,
+          "bayesian_score": 4.9,
+          "z_score": -1.162,
+          "vote_count": 209,
+          "weight": 5.342,
+          "site_rank": 59,
+          "site_percentile": 13.432835820895523,
+          "url": "https://bgm.tv/subject/531945"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": -0.208,
+          "vote_count": 155,
+          "weight": 4.539,
+          "site_rank": 44,
+          "site_percentile": 36.76470588235294,
+          "url": "https://filmarks.com/animes/4719/6390"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": -0.2,
+          "vote_count": 343,
+          "weight": 4.67,
+          "site_rank": 36,
+          "site_percentile": 45.3125,
+          "url": "https://www.imdb.com/title/tt29244152/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.66,
+          "bayesian_score": 6.66,
+          "z_score": -0.723,
+          "vote_count": 1429,
+          "weight": 7.265,
+          "site_rank": 49,
+          "site_percentile": 29.411764705882355,
+          "url": "https://myanimelist.net/anime/60697"
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "title": "Busamen Gachi Fighter",
+      "title_english": "Uglymug, Epicfighter",
+      "title_japanese": "ブサメンガチファイター",
+      "title_chinese": "肥宅勇者",
+      "composite_score": -0.721,
+      "confidence": 0.519,
+      "total_votes": 5451,
+      "website_count": 5,
+      "percentile": 22.058823529411764,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "WHITE FOX",
+        "Nippon Columbia",
+        "bilibili",
+        "VAP",
+        "KLOCKWORX",
+        "EGG FIRM"
+      ],
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184575-hEzI5V8o818U.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184575-hEzI5V8o818U.png",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -0.921,
+          "vote_count": 800,
+          "weight": 6.685,
+          "site_rank": 52,
+          "site_percentile": 21.53846153846154,
+          "url": "https://anilist.co/anime/184575"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.7,
+          "bayesian_score": 5.7,
+          "z_score": -0.411,
+          "vote_count": 452,
+          "weight": 6.114,
+          "site_rank": 40,
+          "site_percentile": 41.7910447761194,
+          "url": "https://bgm.tv/subject/524593"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.2,
+          "bayesian_score": 6.2,
+          "z_score": -0.884,
+          "vote_count": 115,
+          "weight": 4.27,
+          "site_rank": 58,
+          "site_percentile": 16.176470588235293,
+          "url": "https://filmarks.com/animes/4603/6231"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.2,
+          "bayesian_score": 7.2,
+          "z_score": -0.2,
+          "vote_count": 96,
+          "weight": 3.651,
+          "site_rank": 37,
+          "site_percentile": 43.75,
+          "url": "https://www.imdb.com/title/tt36592756/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.49,
+          "bayesian_score": 6.49,
+          "z_score": -0.935,
+          "vote_count": 3988,
+          "weight": 8.291,
+          "site_rank": 55,
+          "site_percentile": 20.588235294117645,
+          "url": "https://myanimelist.net/anime/60316"
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "title": "Busu ni Hanataba wo.",
+      "title_english": "April Showers Bring May Flowers",
+      "title_japanese": "ブスに花束を。",
+      "title_chinese": "为丑女献上花束。",
+      "composite_score": -0.733,
+      "confidence": 0.386,
+      "total_votes": 3002,
+      "website_count": 4,
+      "percentile": 20.588235294117645,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-04",
+      "studios": [
+        "SILVER LINK.",
+        "Mainichi Broadcasting System",
+        "VAP",
+        "Marvelous",
+        "SILVER LINK.",
+        "BS Nittele",
+        "TOKYO MX"
+      ],
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156395-LW98bhT54IuM.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx156395-LW98bhT54IuM.png",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/156395-V60PSAOKauDU.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.2,
+          "bayesian_score": 6.2,
+          "z_score": -0.811,
+          "vote_count": 543,
+          "weight": 6.297,
+          "site_rank": 49,
+          "site_percentile": 26.153846153846157,
+          "url": "https://anilist.co/anime/156395"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.2,
+          "bayesian_score": 5.2,
+          "z_score": -0.88,
+          "vote_count": 180,
+          "weight": 5.193,
+          "site_rank": 52,
+          "site_percentile": 23.88059701492537,
+          "url": "https://bgm.tv/subject/406857"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.546,
+          "vote_count": 200,
+          "weight": 4.768,
+          "site_rank": 51,
+          "site_percentile": 26.47058823529412,
+          "url": "https://filmarks.com/animes/4713/6381"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.708,
+          "vote_count": 33,
+          "weight": null,
+          "site_rank": 50,
+          "site_percentile": 23.4375,
+          "url": "https://www.imdb.com/title/tt35995358/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.69,
+          "bayesian_score": 6.69,
+          "z_score": -0.685,
+          "vote_count": 2079,
+          "weight": 7.64,
+          "site_rank": 46,
+          "site_percentile": 33.82352941176471,
+          "url": "https://myanimelist.net/anime/53512"
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "title": "Futari Solo Camp",
+      "title_english": "Solo Camping for Two",
+      "title_japanese": "ふたりソロキャンプ",
+      "title_chinese": "双人单身露营",
+      "composite_score": -0.785,
+      "confidence": 0.393,
+      "total_votes": 3470,
+      "website_count": 4,
+      "percentile": 19.11764705882353,
+      "anime_type": "TV",
+      "episodes": 24,
+      "start_date": "2025-07-11",
+      "studios": [
+        "SynergySP",
+        "Pony Canyon",
+        "Kodansha",
+        "Crunchyroll",
+        "BS Asahi"
+      ],
+      "genres": [
+        "Slice of Life"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185965-LlzTLSTBUbEA.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx185965-LlzTLSTBUbEA.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/185965-9YtD3BC30w26.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -0.921,
+          "vote_count": 727,
+          "weight": 6.589,
+          "site_rank": 53,
+          "site_percentile": 20.0,
+          "url": "https://anilist.co/anime/185965"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.6,
+          "bayesian_score": 5.6,
+          "z_score": -0.505,
+          "vote_count": 184,
+          "weight": 5.215,
+          "site_rank": 43,
+          "site_percentile": 37.3134328358209,
+          "url": "https://bgm.tv/subject/531344"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.4,
+          "bayesian_score": 6.4,
+          "z_score": -0.715,
+          "vote_count": 131,
+          "weight": 4.388,
+          "site_rank": 55,
+          "site_percentile": 20.588235294117645,
+          "url": "https://filmarks.com/animes/4651/6294"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.4,
+          "bayesian_score": 6.4,
+          "z_score": -1.216,
+          "vote_count": 41,
+          "weight": null,
+          "site_rank": 59,
+          "site_percentile": 9.375,
+          "url": "https://www.imdb.com/title/tt36271866/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.52,
+          "bayesian_score": 6.52,
+          "z_score": -0.897,
+          "vote_count": 2428,
+          "weight": 7.795,
+          "site_rank": 53,
+          "site_percentile": 23.52941176470588,
+          "url": "https://myanimelist.net/anime/60665"
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "title": "Kizetsu Yuusha to Ansatsu Hime",
+      "title_english": "The Shy Hero and the Assassin Princesses",
+      "title_japanese": "気絶勇者と暗殺姫",
+      "title_chinese": "气绝勇者与暗杀公主",
+      "composite_score": -0.804,
+      "confidence": 0.413,
+      "total_votes": 5232,
+      "website_count": 4,
+      "percentile": 17.647058823529413,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-12",
+      "studios": [
+        "Connect"
+      ],
+      "genres": [
+        "Action",
+        "Comedy",
+        "Fantasy",
+        "Shounen"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186561-9qIZCSTYkAfw.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx186561-9qIZCSTYkAfw.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -0.921,
+          "vote_count": 817,
+          "weight": 6.706,
+          "site_rank": 54,
+          "site_percentile": 18.461538461538463,
+          "url": "https://anilist.co/anime/186561"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.7,
+          "bayesian_score": 5.7,
+          "z_score": -0.411,
+          "vote_count": 321,
+          "weight": 5.771,
+          "site_rank": 41,
+          "site_percentile": 40.298507462686565,
+          "url": "https://bgm.tv/subject/536363"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 5.0,
+          "bayesian_score": 5.0,
+          "z_score": -1.898,
+          "vote_count": 48,
+          "weight": null,
+          "site_rank": 66,
+          "site_percentile": 4.411764705882353,
+          "url": "https://filmarks.com/animes/4780/6479"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.9,
+          "bayesian_score": 6.9,
+          "z_score": -0.581,
+          "vote_count": 106,
+          "weight": 3.731,
+          "site_rank": 47,
+          "site_percentile": 28.125,
+          "url": "https://www.imdb.com/title/tt35677101/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.37,
+          "bayesian_score": 6.37,
+          "z_score": -1.085,
+          "vote_count": 3988,
+          "weight": 8.291,
+          "site_rank": 58,
+          "site_percentile": 16.176470588235293,
+          "url": "https://myanimelist.net/anime/60951"
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "title": "Tsuyokute New Saga",
+      "title_english": "New Saga",
+      "title_japanese": "強くてニューサーガ",
+      "title_chinese": "强者的新传说",
+      "composite_score": -0.875,
+      "confidence": 0.529,
+      "total_votes": 6444,
+      "website_count": 5,
+      "percentile": 16.176470588235293,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-03",
+      "studios": [
+        "ABC Animation",
+        "Sotsu",
+        "Studio Massket",
+        "Studio Clutch",
+        "AlphaPolis",
+        "ANICI",
+        "Sotsu",
+        "Bandai Namco Music Live",
+        "Bushiroad",
+        "Pia",
+        "KLOCKWORX",
+        "TOKYO MX",
+        "Exa International",
+        "Toei Video"
+      ],
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx155838-0zx6MTeoo5sk.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx155838-0zx6MTeoo5sk.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.3,
+          "bayesian_score": 6.3,
+          "z_score": -0.701,
+          "vote_count": 1116,
+          "weight": 7.018,
+          "site_rank": 46,
+          "site_percentile": 30.76923076923077,
+          "url": "https://anilist.co/anime/155838"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.4,
+          "bayesian_score": 5.4,
+          "z_score": -0.692,
+          "vote_count": 176,
+          "weight": 5.17,
+          "site_rank": 49,
+          "site_percentile": 28.35820895522388,
+          "url": "https://bgm.tv/subject/404909"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 5.2,
+          "bayesian_score": 5.2,
+          "z_score": -1.729,
+          "vote_count": 88,
+          "weight": 4.03,
+          "site_rank": 65,
+          "site_percentile": 5.88235294117647,
+          "url": "https://filmarks.com/animes/3805/5146"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.962,
+          "vote_count": 155,
+          "weight": 4.035,
+          "site_rank": 55,
+          "site_percentile": 15.625,
+          "url": "https://www.imdb.com/title/tt33050376/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.69,
+          "bayesian_score": 6.69,
+          "z_score": -0.685,
+          "vote_count": 4909,
+          "weight": 8.499,
+          "site_rank": 47,
+          "site_percentile": 32.35294117647059,
+          "url": "https://myanimelist.net/anime/53397"
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 2nd Season",
+      "title_english": "Reborn as a Vending Machine, I Now Wander the Dungeon Season 2",
+      "title_japanese": "自動販売機に生まれ変わった俺は迷宮を彷徨う 2nd Season",
+      "title_chinese": "转生成自动贩卖机的我今天也在迷宫徘徊 第二季",
+      "composite_score": -0.897,
+      "confidence": 0.521,
+      "total_votes": 5610,
+      "website_count": 5,
+      "percentile": 14.705882352941178,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-02",
+      "studios": [
+        "Studio Gokumi",
+        "AXsiZ",
+        "Nippon Television Network",
+        "Yomiuri TV Enterprise",
+        "ANICI",
+        "Docomo Anime Store",
+        "VAP",
+        "Nittele Wands",
+        "BS Nittele"
+      ],
+      "genres": [
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169440-MhlOxaIyASRu.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169440-MhlOxaIyASRu.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.2,
+          "bayesian_score": 6.2,
+          "z_score": -0.811,
+          "vote_count": 809,
+          "weight": 6.696,
+          "site_rank": 50,
+          "site_percentile": 24.615384615384617,
+          "url": "https://anilist.co/anime/169440"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.1,
+          "bayesian_score": 5.1,
+          "z_score": -0.974,
+          "vote_count": 129,
+          "weight": 4.86,
+          "site_rank": 55,
+          "site_percentile": 19.402985074626866,
+          "url": "https://bgm.tv/subject/455617"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.546,
+          "vote_count": 102,
+          "weight": 4.162,
+          "site_rank": 52,
+          "site_percentile": 25.0,
+          "url": "https://filmarks.com/animes/3978/5762"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.3,
+          "bayesian_score": 6.3,
+          "z_score": -1.343,
+          "vote_count": 1045,
+          "weight": 5.561,
+          "site_rank": 60,
+          "site_percentile": 7.8125,
+          "url": "https://www.imdb.com/title/tt28100731/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.798,
+          "vote_count": 3525,
+          "weight": 8.168,
+          "site_rank": 52,
+          "site_percentile": 25.0,
+          "url": "https://myanimelist.net/anime/56700"
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "title": "Nyaight of the Living Cat",
+      "title_english": "Nyaight of the Living Cat",
+      "title_japanese": "ニャイト・オブ・ザ・リビングキャット",
+      "title_chinese": "活死喵之夜",
+      "composite_score": -0.921,
+      "confidence": 0.494,
+      "total_votes": 3583,
+      "website_count": 5,
+      "percentile": 13.23529411764706,
+      "anime_type": "ONA",
+      "episodes": 12,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Sony Pictures Entertainment",
+        "OLM",
+        "Crunchyroll",
+        "CyberAgent",
+        "Mag Garden",
+        "Animax Broadcast Japan",
+        "MediaNet",
+        "Warner Music Japan",
+        "OLM",
+        "81 Produce",
+        "Slow Curve"
+      ],
+      "genres": [
+        "Horror"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175124-eDYbn0W5F4to.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx175124-eDYbn0W5F4to.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/175124-lxJPpMs1JGIc.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -0.921,
+          "vote_count": 591,
+          "weight": 6.382,
+          "site_rank": 55,
+          "site_percentile": 16.923076923076923,
+          "url": "https://anilist.co/anime/175124"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.1,
+          "bayesian_score": 5.1,
+          "z_score": -0.974,
+          "vote_count": 208,
+          "weight": 5.338,
+          "site_rank": 56,
+          "site_percentile": 17.91044776119403,
+          "url": "https://bgm.tv/subject/481745"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.377,
+          "vote_count": 206,
+          "weight": 4.795,
+          "site_rank": 48,
+          "site_percentile": 30.88235294117647,
+          "url": "https://filmarks.com/animes/4414/5952"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.5,
+          "bayesian_score": 6.5,
+          "z_score": -1.089,
+          "vote_count": 135,
+          "weight": 3.924,
+          "site_rank": 58,
+          "site_percentile": 10.9375,
+          "url": "https://www.imdb.com/title/tt31435652/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.33,
+          "bayesian_score": 6.33,
+          "z_score": -1.135,
+          "vote_count": 2443,
+          "weight": 7.801,
+          "site_rank": 59,
+          "site_percentile": 14.705882352941178,
+          "url": "https://myanimelist.net/anime/58197"
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "title": "Yuusha Party wo Tsuihou sareta Shiromadoushi, S-Rank Boukensha ni Hirowareru: Kono Shiromadoushi ga Kikakugai Sugiru",
+      "title_english": "Scooped Up by an S-Ranked Adventurer",
+      "title_japanese": "勇者パーティーを追放された白魔導師、Sランク冒険者に拾われる ～この白魔導師が規格外すぎる～",
+      "title_chinese": "被驱逐出勇者队伍的白魔导师， 被S级冒险者捡到",
+      "composite_score": -0.93,
+      "confidence": 0.531,
+      "total_votes": 6642,
+      "website_count": 5,
+      "percentile": 11.76470588235294,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-11",
+      "studios": [
+        "Felix Film"
+      ],
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179885-m1nu1QvnRmII.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179885-m1nu1QvnRmII.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.1,
+          "bayesian_score": 6.1,
+          "z_score": -0.921,
+          "vote_count": 1094,
+          "weight": 6.998,
+          "site_rank": 56,
+          "site_percentile": 15.384615384615385,
+          "url": "https://anilist.co/anime/179885"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 4.6,
+          "bayesian_score": 4.6,
+          "z_score": -1.444,
+          "vote_count": 219,
+          "weight": 5.389,
+          "site_rank": 64,
+          "site_percentile": 5.970149253731343,
+          "url": "https://bgm.tv/subject/505793"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -1.053,
+          "vote_count": 133,
+          "weight": 4.401,
+          "site_rank": 59,
+          "site_percentile": 14.705882352941178,
+          "url": "https://filmarks.com/animes/4615/6243"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.4,
+          "bayesian_score": 7.4,
+          "z_score": 0.054,
+          "vote_count": 99,
+          "weight": 3.676,
+          "site_rank": 30,
+          "site_percentile": 54.6875,
+          "url": "https://www.imdb.com/title/tt36592820/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.46,
+          "bayesian_score": 6.46,
+          "z_score": -0.972,
+          "vote_count": 5097,
+          "weight": 8.536,
+          "site_rank": 56,
+          "site_percentile": 19.11764705882353,
+          "url": "https://myanimelist.net/anime/59424"
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "title": "Kanojo, Okarishimasu 4th Season",
+      "title_english": "Rent-a-Girlfriend Season 4",
+      "title_japanese": "彼女、お借りします 第4期",
+      "title_chinese": "租借女友 第四季",
+      "composite_score": -0.976,
+      "confidence": 0.593,
+      "total_votes": 18515,
+      "website_count": 5,
+      "percentile": 10.294117647058822,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-05",
+      "studios": [
+        "TMS Entertainment"
+      ],
+      "genres": [
+        "Adult Cast",
+        "Comedy",
+        "Harem",
+        "Romance",
+        "Shounen"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179344-GQzJfehpQI72.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx179344-GQzJfehpQI72.png",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -1.031,
+          "vote_count": 1430,
+          "weight": 7.265,
+          "site_rank": 57,
+          "site_percentile": 13.846153846153847,
+          "url": "https://anilist.co/anime/179344"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 3.5,
+          "bayesian_score": 3.5,
+          "z_score": -2.478,
+          "vote_count": 249,
+          "weight": 5.517,
+          "site_rank": 67,
+          "site_percentile": 1.4925373134328357,
+          "url": "https://bgm.tv/subject/503450"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 8.4,
+          "bayesian_score": 8.4,
+          "z_score": 0.974,
+          "vote_count": 224,
+          "weight": 4.87,
+          "site_rank": 10,
+          "site_percentile": 86.76470588235294,
+          "url": "https://filmarks.com/animes/1271/6102"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.708,
+          "vote_count": 10440,
+          "weight": 7.403,
+          "site_rank": 51,
+          "site_percentile": 21.875,
+          "url": "https://www.imdb.com/title/tt11448214/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.2,
+          "bayesian_score": 6.2,
+          "z_score": -1.297,
+          "vote_count": 6172,
+          "weight": 8.728,
+          "site_rank": 61,
+          "site_percentile": 11.76470588235294,
+          "url": "https://myanimelist.net/anime/59277"
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "title": "Yami Shibai 15",
+      "title_english": "Theatre of Darkness: Yamishibai 15",
+      "title_japanese": "闇芝居 十五期",
+      "title_chinese": "暗芝居 第十五季",
+      "composite_score": -0.988,
+      "confidence": 0.171,
+      "total_votes": 1195,
+      "website_count": 2,
+      "percentile": 8.823529411764707,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-14",
+      "studios": [
+        "ILCA"
+      ],
+      "genres": [
+        "Avant Garde",
+        "Horror",
+        "Supernatural"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194088-lzp3BHNx0tnY.png",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx194088-lzp3BHNx0tnY.png",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "bangumi",
+          "raw_score": 5.0,
+          "bayesian_score": 5.0,
+          "z_score": -1.068,
+          "vote_count": 9,
+          "weight": null,
+          "site_rank": 57,
+          "site_percentile": 16.417910447761194,
+          "url": "https://bgm.tv/subject/562793"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -1.053,
+          "vote_count": 13,
+          "weight": null,
+          "site_rank": 60,
+          "site_percentile": 13.23529411764706,
+          "url": "https://filmarks.com/animes/911/6540"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": -0.454,
+          "vote_count": 1017,
+          "weight": 5.54,
+          "site_rank": 44,
+          "site_percentile": 32.8125,
+          "url": "https://www.imdb.com/title/tt3111906/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 5.99,
+          "bayesian_score": 5.99,
+          "z_score": -1.56,
+          "vote_count": 178,
+          "weight": 5.182,
+          "site_rank": 65,
+          "site_percentile": 5.88235294117647,
+          "url": "https://myanimelist.net/anime/61793"
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "title": "Binan Koukou Chikyuu Bouei-bu Haikara!",
+      "title_english": "Cute High Earth Defense Club Hi-CARA!",
+      "title_japanese": "美男高校地球防衛部ハイカラ！",
+      "title_chinese": "美男高校地球防卫部High collar！",
+      "composite_score": -1.029,
+      "confidence": 0.14,
+      "total_votes": 326,
+      "website_count": 2,
+      "percentile": 7.352941176470589,
+      "anime_type": "TV",
+      "episodes": 12,
+      "start_date": "2025-07-07",
+      "studios": [
+        "Studio Deen"
+      ],
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Historical",
+        "Parody",
+        "School",
+        "Super Power"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188138-uflx1ZZo5XsE.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx188138-uflx1ZZo5XsE.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "bangumi",
+          "raw_score": 4.8,
+          "bayesian_score": 4.8,
+          "z_score": -1.256,
+          "vote_count": 12,
+          "weight": null,
+          "site_rank": 61,
+          "site_percentile": 10.44776119402985,
+          "url": "https://bgm.tv/subject/544967"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.6,
+          "bayesian_score": 6.6,
+          "z_score": -0.546,
+          "vote_count": 36,
+          "weight": null,
+          "site_rank": 53,
+          "site_percentile": 23.52941176470588,
+          "url": "https://filmarks.com/animes/4778/6476"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 7.1,
+          "bayesian_score": 7.1,
+          "z_score": -0.327,
+          "vote_count": 149,
+          "weight": 4.003,
+          "site_rank": 41,
+          "site_percentile": 37.5,
+          "url": "https://www.imdb.com/title/tt4219142/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 5.98,
+          "bayesian_score": 5.98,
+          "z_score": -1.572,
+          "vote_count": 177,
+          "weight": 5.176,
+          "site_rank": 66,
+          "site_percentile": 4.411764705882353,
+          "url": "https://myanimelist.net/anime/61239"
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "title": "9: Ruler's Crown",
+      "title_english": "",
+      "title_japanese": "9-nine- Ruler's Crown",
+      "title_chinese": "9-nine- 支配者的王冠",
+      "composite_score": -1.334,
+      "confidence": 0.357,
+      "total_votes": 1641,
+      "website_count": 4,
+      "percentile": 5.88235294117647,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-05",
+      "studios": [
+        "PRA"
+      ],
+      "genres": [
+        "Mystery",
+        "Romance",
+        "School",
+        "Super Power"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177761-KdJxyWwdBdiS.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx177761-KdJxyWwdBdiS.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 5.2,
+          "bayesian_score": 5.2,
+          "z_score": -1.913,
+          "vote_count": 259,
+          "weight": 5.557,
+          "site_rank": 64,
+          "site_percentile": 3.076923076923077,
+          "url": "https://anilist.co/anime/177761"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 4.9,
+          "bayesian_score": 4.9,
+          "z_score": -1.162,
+          "vote_count": 506,
+          "weight": 6.227,
+          "site_rank": 60,
+          "site_percentile": 11.940298507462686,
+          "url": "https://bgm.tv/subject/496973"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 7.0,
+          "bayesian_score": 7.0,
+          "z_score": -0.208,
+          "vote_count": 91,
+          "weight": 4.06,
+          "site_rank": 45,
+          "site_percentile": 35.294117647058826,
+          "url": "https://filmarks.com/animes/4555/6161"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 6.8,
+          "bayesian_score": 6.8,
+          "z_score": -0.708,
+          "vote_count": 18,
+          "weight": null,
+          "site_rank": 52,
+          "site_percentile": 20.3125,
+          "url": "https://www.imdb.com/title/tt32463887/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 5.88,
+          "bayesian_score": 5.88,
+          "z_score": -1.697,
+          "vote_count": 785,
+          "weight": 6.666,
+          "site_rank": 67,
+          "site_percentile": 2.941176470588235,
+          "url": "https://myanimelist.net/anime/58957"
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "title": "Watari-kun no xx ga Houkai Sunzen",
+      "title_english": "Watari-kun's ****** Is about to Collapse",
+      "title_japanese": "渡くんの××が崩壊寸前",
+      "title_chinese": "渡君的XX即将崩坏",
+      "composite_score": -1.37,
+      "confidence": 0.524,
+      "total_votes": 5901,
+      "website_count": 5,
+      "percentile": 4.411764705882353,
+      "anime_type": "TV",
+      "episodes": null,
+      "start_date": "2025-07-05",
+      "studios": [
+        "Staple Entertainment"
+      ],
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance",
+        "School",
+        "Seinen"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169420-u4wDhHlTfX9P.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx169420-u4wDhHlTfX9P.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/169420-jdvNFYe9Oa4v.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 5.9,
+          "bayesian_score": 5.9,
+          "z_score": -1.141,
+          "vote_count": 1055,
+          "weight": 6.961,
+          "site_rank": 59,
+          "site_percentile": 10.76923076923077,
+          "url": "https://anilist.co/anime/169420"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 4.8,
+          "bayesian_score": 4.8,
+          "z_score": -1.256,
+          "vote_count": 246,
+          "weight": 5.505,
+          "site_rank": 62,
+          "site_percentile": 8.955223880597014,
+          "url": "https://bgm.tv/subject/455454"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 5.0,
+          "bayesian_score": 5.0,
+          "z_score": -1.898,
+          "vote_count": 56,
+          "weight": 3.623,
+          "site_rank": 67,
+          "site_percentile": 2.941176470588235,
+          "url": "https://filmarks.com/animes/4725/6397"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 5.7,
+          "bayesian_score": 5.7,
+          "z_score": -2.105,
+          "vote_count": 120,
+          "weight": 3.83,
+          "site_rank": 63,
+          "site_percentile": 3.125,
+          "url": "https://www.imdb.com/title/tt32535912/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.38,
+          "bayesian_score": 6.38,
+          "z_score": -1.072,
+          "vote_count": 4424,
+          "weight": 8.395,
+          "site_rank": 57,
+          "site_percentile": 17.647058823529413,
+          "url": "https://myanimelist.net/anime/56693"
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "title": "Hotel Inhumans",
+      "title_english": "Hotel Inhumans",
+      "title_japanese": "ホテル・インヒューマンズ",
+      "title_chinese": "杀手旅店",
+      "composite_score": -1.494,
+      "confidence": 0.627,
+      "total_votes": 32784,
+      "website_count": 5,
+      "percentile": 2.941176470588235,
+      "anime_type": "TV",
+      "episodes": 13,
+      "start_date": "2025-07-06",
+      "studios": [
+        "Bridge"
+      ],
+      "genres": [
+        "Action",
+        "Drama",
+        "Organized Crime"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184034-gjIi5TIHJpZv.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx184034-gjIi5TIHJpZv.jpg",
+      "banner_image": "https://s4.anilist.co/file/anilistcdn/media/anime/banner/184034-iqhrtWaMTlwA.jpg",
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -1.031,
+          "vote_count": 488,
+          "weight": 6.19,
+          "site_rank": 58,
+          "site_percentile": 12.307692307692308,
+          "url": "https://anilist.co/anime/184034"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 5.4,
+          "bayesian_score": 5.4,
+          "z_score": -0.692,
+          "vote_count": 161,
+          "weight": 5.081,
+          "site_rank": 50,
+          "site_percentile": 26.865671641791046,
+          "url": "https://bgm.tv/subject/523426"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.0,
+          "bayesian_score": 6.0,
+          "z_score": -1.053,
+          "vote_count": 163,
+          "weight": 4.584,
+          "site_rank": 61,
+          "site_percentile": 11.76470588235294,
+          "url": "https://filmarks.com/animes/4596/6221"
+        },
+        {
+          "website": "imdb",
+          "raw_score": 4.9,
+          "bayesian_score": 4.9,
+          "z_score": -3.12,
+          "vote_count": 30182,
+          "weight": 8.252,
+          "site_rank": 64,
+          "site_percentile": 1.5625,
+          "url": "https://www.imdb.com/title/tt4154858/"
+        },
+        {
+          "website": "mal",
+          "raw_score": 6.52,
+          "bayesian_score": 6.52,
+          "z_score": -0.897,
+          "vote_count": 1790,
+          "weight": 7.49,
+          "site_rank": 54,
+          "site_percentile": 22.058823529411764,
+          "url": "https://myanimelist.net/anime/60260"
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "title": "Kizu darake Seijo yori Houfuku wo Komete",
+      "title_english": "With Vengeance, Sincerely, Your Broken Saintess",
+      "title_japanese": "傷だらけ聖女より報復をこめて",
+      "title_chinese": "黑化吧！圣女大人",
+      "composite_score": -1.749,
+      "confidence": 0.342,
+      "total_votes": 1206,
+      "website_count": 4,
+      "percentile": 1.4705882352941175,
+      "anime_type": "TV",
+      "episodes": 6,
+      "start_date": "2025-07-10",
+      "studios": [
+        "Imagica Infos",
+        "Imageworks Studio"
+      ],
+      "genres": [
+        "Fantasy",
+        "Romance"
+      ],
+      "poster_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b195209-IwHhCJUcmoK0.jpg",
+      "cover_image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b195209-IwHhCJUcmoK0.jpg",
+      "banner_image": null,
+      "ratings": [
+        {
+          "website": "anilist",
+          "raw_score": 5.3,
+          "bayesian_score": 5.3,
+          "z_score": -1.803,
+          "vote_count": 176,
+          "weight": 5.17,
+          "site_rank": 63,
+          "site_percentile": 4.615384615384616,
+          "url": "https://anilist.co/anime/195209"
+        },
+        {
+          "website": "bangumi",
+          "raw_score": 3.9,
+          "bayesian_score": 3.9,
+          "z_score": -2.102,
+          "vote_count": 58,
+          "weight": 4.06,
+          "site_rank": 66,
+          "site_percentile": 2.9850746268656714,
+          "url": "https://bgm.tv/subject/515418"
+        },
+        {
+          "website": "filmarks",
+          "raw_score": 6.4,
+          "bayesian_score": 6.4,
+          "z_score": -0.715,
+          "vote_count": 61,
+          "weight": 3.7,
+          "site_rank": 56,
+          "site_percentile": 19.11764705882353,
+          "url": "https://filmarks.com/animes/4627/6255"
+        },
+        {
+          "website": "mal",
+          "raw_score": 5.59,
+          "bayesian_score": 5.59,
+          "z_score": -2.059,
+          "vote_count": 911,
+          "weight": 6.815,
+          "site_rank": 68,
+          "site_percentile": 1.4705882352941175,
+          "url": "https://myanimelist.net/anime/59961"
+        }
+      ]
+    }
+  ]
+}
