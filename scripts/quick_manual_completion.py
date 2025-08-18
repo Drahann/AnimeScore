@@ -12,22 +12,46 @@ from datetime import datetime
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
+from src.models.config import Config
+
 def load_latest_results():
-    """加载最新的分析结果"""
-    results_dir = Path("data/results")
+    """加载最新的分析结果（优先从 final_results 目录加载）"""
+    # 优先从 final_results 目录加载（手动处理后的结果）
+    try:
+        config_path = project_root / "config" / "config.yaml"
+        config = Config.load_from_file(str(config_path))
+        final_results_dir = Path(config.storage.final_results_dir)
+        results_dir = Path(config.storage.results_dir)
+    except Exception as e:
+        print(f"⚠️ 无法加载配置，使用默认目录: {e}")
+        final_results_dir = Path("data/results/final_results")
+        results_dir = Path("data/results")
+
+    # 首先检查 final_results 目录
+    if final_results_dir.exists():
+        json_files = list(final_results_dir.glob("anime_ranking_*.json"))
+        if json_files:
+            latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
+            print(f"📂 从 final_results 加载最新结果: {latest_file.name}")
+            print(f"   (这是经过手动处理的结果)")
+
+            with open(latest_file, 'r', encoding='utf-8') as f:
+                return json.load(f), latest_file
+
+    # 如果 final_results 没有文件，则从普通 results 目录加载
     if not results_dir.exists():
         print("❌ 结果目录不存在")
         return None
-    
-    # 找到最新的JSON文件
+
     json_files = list(results_dir.glob("anime_ranking_*.json"))
     if not json_files:
         print("❌ 没有找到分析结果文件")
         return None
-    
+
     latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
-    print(f"📂 加载最新结果: {latest_file.name}")
-    
+    print(f"📂 从 results 加载最新结果: {latest_file.name}")
+    print(f"   (这是原始分析结果)")
+
     with open(latest_file, 'r', encoding='utf-8') as f:
         return json.load(f), latest_file
 
@@ -237,12 +261,24 @@ def recalculate_site_rankings(data):
             item['rating']['site_percentile'] = percentile
 
 def save_updated_results(data, original_file):
-    """保存更新后的结果"""
+    """保存更新后的结果到 final_results 目录"""
+    # 加载配置获取 final_results 目录
+    try:
+        config_path = project_root / "config" / "config.yaml"
+        config = Config.load_from_file(str(config_path))
+        final_results_dir = Path(config.storage.final_results_dir)
+    except Exception as e:
+        print(f"⚠️ 无法加载配置，使用默认目录: {e}")
+        final_results_dir = Path("data/results/final_results")
+
+    # 确保目录存在
+    final_results_dir.mkdir(parents=True, exist_ok=True)
+
     # 创建新文件名
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     original_path = Path(original_file)
     new_name = original_path.stem + f"_manual_completed_{timestamp}" + original_path.suffix
-    new_path = original_path.parent / new_name
+    new_path = final_results_dir / new_name
     
     # 更新分析日期
     data['analysis_info']['analysis_date'] = datetime.now().isoformat()

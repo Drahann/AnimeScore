@@ -12,6 +12,8 @@ from datetime import datetime
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
+from src.models.config import Config
+
 def load_latest_results():
     """加载最新的分析结果"""
     results_dir = Path("data/results")
@@ -315,12 +317,24 @@ def recalculate_site_rankings(data):
     print(f"✅ 网站排名重新计算完成")
 
 def save_updated_results(data, original_file, removal_count):
-    """保存更新后的结果"""
+    """保存更新后的结果到 final_results 目录"""
+    # 加载配置获取 final_results 目录
+    try:
+        config_path = project_root / "config" / "config.yaml"
+        config = Config.load_from_file(str(config_path))
+        final_results_dir = Path(config.storage.final_results_dir)
+    except Exception as e:
+        print(f"⚠️ 无法加载配置，使用默认目录: {e}")
+        final_results_dir = Path("data/results/final_results")
+
+    # 确保目录存在
+    final_results_dir.mkdir(parents=True, exist_ok=True)
+
     # 创建新文件名
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     original_path = Path(original_file)
     new_name = original_path.stem + f"_removed_{removal_count}_anime_{timestamp}" + original_path.suffix
-    new_path = original_path.parent / new_name
+    new_path = final_results_dir / new_name
     
     # 更新分析日期和删除信息
     data['analysis_info']['analysis_date'] = datetime.now().isoformat()

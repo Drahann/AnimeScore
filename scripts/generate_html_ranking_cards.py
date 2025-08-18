@@ -14,23 +14,36 @@ sys.path.insert(0, str(project_root))
 
 def load_latest_data():
     """加载最新的结果文件"""
+    # 优先查找final_results目录
+    final_results_dir = Path("data/results/final_results")
     results_dir = Path("data/results")
-    if not results_dir.exists():
-        print("❌ 结果目录不存在")
-        return None
-    
-    # 优先查找JSON文件
-    json_files = list(results_dir.glob("anime_ranking_*.json"))
-    if json_files:
-        latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
-        print(f"📂 加载JSON文件: {latest_file.name}")
-        
-        with open(latest_file, 'r', encoding='utf-8') as f:
-            json_data = json.load(f)
-        
-        data = json_data.get('rankings', [])
-        return data, latest_file
-    
+
+    # 首先尝试final_results目录
+    if final_results_dir.exists():
+        json_files = list(final_results_dir.glob("anime_ranking_*.json"))
+        if json_files:
+            latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
+            print(f"📂 加载JSON文件: {latest_file.name} (来自final_results)")
+
+            with open(latest_file, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            data = json_data.get('rankings', [])
+            return data, latest_file
+
+    # 如果final_results目录没有文件，则查找主results目录
+    if results_dir.exists():
+        json_files = list(results_dir.glob("anime_ranking_*.json"))
+        if json_files:
+            latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
+            print(f"📂 加载JSON文件: {latest_file.name} (来自results)")
+
+            with open(latest_file, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            data = json_data.get('rankings', [])
+            return data, latest_file
+
     print("❌ 没有找到JSON结果文件")
     return None
 
@@ -134,6 +147,7 @@ def create_detailed_html_card(anime_data, rank):
     website_colors = {
         'anilist': '#02A9FF',
         'bangumi': '#F06795',
+        'douban': '#00B51D',
         'filmarks': '#FF5733',
         'imdb': '#F5C518',
         'mal': '#2E5192'

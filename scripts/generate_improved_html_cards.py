@@ -14,23 +14,36 @@ sys.path.insert(0, str(project_root))
 
 def load_latest_data():
     """加载最新的结果文件"""
+    # 优先查找final_results目录
+    final_results_dir = Path("data/results/final_results")
     results_dir = Path("data/results")
-    if not results_dir.exists():
-        print("❌ 结果目录不存在")
-        return None
-    
-    # 优先查找JSON文件
-    json_files = list(results_dir.glob("anime_ranking_*.json"))
-    if json_files:
-        latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
-        print(f"📂 加载JSON文件: {latest_file.name}")
-        
-        with open(latest_file, 'r', encoding='utf-8') as f:
-            json_data = json.load(f)
-        
-        data = json_data.get('rankings', [])
-        return data, latest_file
-    
+
+    # 首先尝试final_results目录
+    if final_results_dir.exists():
+        json_files = list(final_results_dir.glob("anime_ranking_*.json"))
+        if json_files:
+            latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
+            print(f"📂 加载JSON文件: {latest_file.name} (来自final_results)")
+
+            with open(latest_file, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            data = json_data.get('rankings', [])
+            return data, latest_file
+
+    # 如果final_results目录没有文件，则查找主results目录
+    if results_dir.exists():
+        json_files = list(results_dir.glob("anime_ranking_*.json"))
+        if json_files:
+            latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
+            print(f"📂 加载JSON文件: {latest_file.name} (来自results)")
+
+            with open(latest_file, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            data = json_data.get('rankings', [])
+            return data, latest_file
+
     print("❌ 没有找到JSON结果文件")
     return None
 
@@ -39,6 +52,7 @@ def load_svg_icon(website_name):
     logo_map = {
         'anilist': 'AniList_logo.svg',
         'bangumi': 'bangumi.svg',  # 文件不存在，需要重新下载
+        'douban': 'douban.svg',  # 豆瓣logo
         'filmarks': 'Filmarks.svg',  # 文件名已更新
         'imdb': 'IMDB_Logo_2016.svg',
         'mal': 'MyAnimeList_Current_Logo.svg'
@@ -129,41 +143,73 @@ def create_detailed_html_card(anime_data, rank):
     website_cards = ""
 
     website_colors = {
-        'anilist': 'rgba(30, 41, 59, 0.9)',
-        'bangumi': 'rgba(30, 41, 59, 0.9)',
-        'filmarks': 'rgba(30, 41, 59, 0.9)',
-        'imdb': 'rgba(30, 41, 59, 0.9)',
-        'mal': 'rgba(30, 41, 59, 0.9)'
+        'anilist': 'rgba(30, 41, 59, 0.6)',
+        'bangumi': 'rgba(30, 41, 59, 0.6)',
+        'douban': 'rgba(30, 41, 59, 0.6)',
+        'filmarks': 'rgba(30, 41, 59, 0.6)',
+        'imdb': 'rgba(30, 41, 59, 0.6)',
+        'mal': 'rgba(30, 41, 59, 0.6)'
     }
+
+    # 定义所有网站的顺序和显示名称
+    all_websites = [
+        ('anilist', 'ANILIST'),
+        ('bangumi', 'BANGUMI'),
+        ('douban', 'DOUBAN'),
+        ('filmarks', 'FILMARKS'),
+        ('imdb', 'IMDB'),
+        ('mal', 'MAL')
+    ]
+
+    # 将评分数据转换为字典，便于查找
+    ratings_dict = {}
+    for rating in ratings:
+        website_key = rating.get('website', '').lower()
+        ratings_dict[website_key] = rating
 
     # 加载人数图标
     people_icon = load_people_icon()
 
-    for rating in ratings:
-        website = rating.get('website', '').upper()
-        website_lower = rating.get('website', '').lower()
-        raw_score = rating.get('raw_score', 0)
-        vote_count = rating.get('vote_count', 0)
-        site_rank = rating.get('site_rank', '')
+    # 为所有网站生成卡片
+    for website_key, website_display in all_websites:
+        color = website_colors.get(website_key, 'rgba(30, 41, 59, 0.6)')
+        svg_icon = load_svg_icon(website_key)
 
-        color = website_colors.get(website_lower, '#666666')
-        svg_icon = load_svg_icon(website_lower)
+        if website_key in ratings_dict:
+            # 有评分数据
+            rating = ratings_dict[website_key]
+            raw_score = rating.get('raw_score', 0)
+            vote_count = rating.get('vote_count', 0)
+            site_rank = rating.get('site_rank', '')
+            vote_display = f"{vote_count:,}"
 
-        # 使用精确的投票数
-        vote_display = f"{vote_count:,}"
-
-        website_cards += f"""
+            website_cards += f"""
         <div class="website-card" style="background-color: {color};">
-            <div class="website-icon {website_lower}">
+            <div class="website-icon {website_key}">
                 {svg_icon}
             </div>
-            <div class="website-name">{website}</div>
+            <div class="website-name">{website_display}</div>
             <div class="website-score">{raw_score:.1f}</div>
             <div class="website-votes">
                 <div class="people-icon">{people_icon}</div>
                 <span>{vote_display}</span>
             </div>
             <div class="website-rank">#{site_rank}</div>
+        </div>
+        """
+        else:
+            # 无评分数据
+            website_cards += f"""
+        <div class="website-card" style="background-color: {color}; opacity: 0.5;">
+            <div class="website-icon {website_key}">
+                {svg_icon}
+            </div>
+            <div class="website-name">{website_display}</div>
+            <div class="website-score" style="font-size: 0.9rem; color: #94a3b8;">无评分</div>
+            <div class="website-votes" style="color: #64748b;">
+                <span style="font-size: 0.6rem;">暂无数据</span>
+            </div>
+            <div class="website-rank" style="color: #64748b;">-</div>
         </div>
         """
     
@@ -230,7 +276,7 @@ def create_html_page(cards_html, title):
         }}
         
         .detailed-ranking-card {{
-            width: 1000px;
+            width: 1200px;
             height: 300px;
             margin: 20px auto;
             border-radius: 20px;
@@ -316,7 +362,7 @@ def create_html_page(cards_html, title):
         .website-card {{
             border-radius: 12px;
             padding: 12px;
-            min-width: 130px;
+            min-width: 120px;
             text-align: center;
             color: white;
             position: relative;
@@ -410,10 +456,10 @@ def create_html_page(cards_html, title):
             }}
         }}
         
-        @media (max-width: 1024px) {{
+        @media (max-width: 1280px) {{
             .detailed-ranking-card {{
                 width: 95%;
-                max-width: 1000px;
+                max-width: 1200px;
             }}
             
             .title-text-large {{

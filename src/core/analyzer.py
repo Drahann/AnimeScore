@@ -261,14 +261,41 @@ class AnimeAnalyzer:
     async def _search_anime_id_with_fallback(self, session: aiohttp.ClientSession,
                                            scraper, anime: AnimeInfo) -> Optional[str]:
         """使用多种搜索策略搜索动漫ID（优先日文标题）"""
-        # 使用通用搜索策略
+
+        # 对于豆瓣爬虫，使用其内置的智能搜索策略，只调用一次
+        if scraper.website_name == WebsiteName.DOUBAN:
+            try:
+                logger.debug(f"Using optimized search strategy for {scraper.website_name}")
+
+                # 豆瓣爬虫有自己的搜索词优化逻辑（中文→日文→英文），只需调用一次
+                search_results = await scraper.search_anime(session, anime.title, anime_info=anime)
+
+                if search_results:
+                    # 返回第一个结果的ID
+                    first_result = search_results[0]
+                    anime_id = first_result.external_ids.get(scraper.website_name)
+                    if anime_id:
+                        logger.info(f"✅ Found anime ID '{anime_id}' using optimized search on {scraper.website_name}")
+
+                        # 合并搜索结果中的动漫信息到原始动漫对象
+                        self._merge_search_result_info(anime, first_result, scraper.website_name)
+
+                        return anime_id
+            except Exception as e:
+                logger.warning(f"Optimized search failed on {scraper.website_name}: {e}")
+
+            return None
+
+        # 对于其他爬虫，使用传统的多搜索词策略
         search_terms = self._build_search_terms(anime)
 
         # 逐个尝试搜索
         for search_term in search_terms:
             try:
                 logger.debug(f"Trying search term '{search_term}' on {scraper.website_name}")
+
                 search_results = await scraper.search_anime(session, search_term)
+
                 if search_results:
                     # 返回第一个结果的ID
                     first_result = search_results[0]
@@ -322,6 +349,17 @@ class AnimeAnalyzer:
             if ext_website not in original_anime.external_ids:
                 original_anime.external_ids[ext_website] = ext_id
                 logger.debug(f"   🔗 添加外部ID: {ext_website.value} -> {ext_id}")
+
+        # 合并评分数据
+        if hasattr(search_result, '_rating_data') and search_result._rating_data:
+            if not hasattr(original_anime, '_rating_data') or not original_anime._rating_data:
+                original_anime._rating_data = search_result._rating_data
+                logger.debug(f"   ⭐ 添加评分数据: {search_result._rating_data.raw_score}, 投票: {search_result._rating_data.vote_count:,} (来自 {website_name.value})")
+
+        # 合并年份信息
+        if search_result.year and not original_anime.year:
+            original_anime.year = search_result.year
+            logger.debug(f"   📅 添加年份信息: {search_result.year} (来自 {website_name.value})")
     
     async def _get_rating_from_scraper(self, session: aiohttp.ClientSession,
                                      scraper, anime_id: str) -> Optional[RatingData]:

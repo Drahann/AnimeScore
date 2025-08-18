@@ -22,7 +22,7 @@ def load_analysis_result(file_path: str) -> Dict[str, Any]:
             raise ValueError("目前只支持JSON格式的结果文件")
 
 def load_enabled_websites(config_path: str = "config/config.yaml") -> Set[str]:
-    """从配置文件加载启用的网站列表"""
+    """从配置文件加载启用的网站列表（排除数据补全排除列表中的网站）"""
     try:
         with open(config_path, 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f)
@@ -30,9 +30,17 @@ def load_enabled_websites(config_path: str = "config/config.yaml") -> Set[str]:
         enabled_websites = set()
         websites_config = config.get('websites', {})
 
+        # 获取数据补全排除列表
+        data_completion_config = config.get('data_completion', {})
+        excluded_websites = set(data_completion_config.get('excluded_websites', []))
+
         for website_name, website_config in websites_config.items():
-            if website_config.get('enabled', False):
+            if website_config.get('enabled', False) and website_name not in excluded_websites:
                 enabled_websites.add(website_name)
+
+        print(f"📊 数据分析启用的网站: {sorted(enabled_websites)}")
+        if excluded_websites:
+            print(f"📊 数据分析排除的网站: {sorted(excluded_websites)}")
 
         return enabled_websites
     except Exception as e:

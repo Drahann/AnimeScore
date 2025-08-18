@@ -4,7 +4,7 @@
 from .bangumi import BangumiScraper
 from .mal import MALScraper
 from .anilist import AniListScraper
-from .douban import DoubanScraper
+from .douban_enhanced import DoubanEnhancedScraper  # 使用增强版豆瓣爬虫
 from .imdb import IMDBScraper
 from .filmarks import FilmarksScraper
 
@@ -19,7 +19,7 @@ __all__ = [
     'BangumiScraper',
     'MALScraper',
     'AniListScraper',
-    'DoubanScraper',
+    'DoubanEnhancedScraper',  # 使用增强版豆瓣爬虫
     'IMDBScraper',
     'FilmarksScraper'
 ]

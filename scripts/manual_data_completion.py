@@ -18,7 +18,7 @@ sys.path.insert(0, str(project_root))
 from src.models.config import Config
 from src.models.anime import AnimeScore, AnimeInfo, RatingData, WebsiteName
 from src.core.analyzer import AnimeAnalyzer
-from src.utils.file_utils import save_analysis_results
+# 移除不存在的导入
 from loguru import logger
 
 
@@ -31,17 +31,52 @@ class ManualDataCompletion:
         self.enabled_websites = self._get_enabled_websites()
         
     def _get_enabled_websites(self) -> List[WebsiteName]:
-        """获取启用的网站列表"""
+        """获取启用的网站列表（排除数据补全排除列表中的网站）"""
         enabled_websites = []
+        excluded_websites = set(self.config.data_completion.excluded_websites)
+
         for website_name, website_config in self.config.websites.items():
-            if website_config.enabled:
+            if website_config.enabled and website_name not in excluded_websites:
                 try:
                     website_enum = WebsiteName(website_name)
                     enabled_websites.append(website_enum)
                 except ValueError:
                     continue
+
+        logger.info(f"📊 手动补全启用的网站: {[w.value for w in enabled_websites]}")
+        if excluded_websites:
+            logger.info(f"📊 手动补全排除的网站: {list(excluded_websites)}")
+
         return enabled_websites
-    
+
+    def find_latest_results_file(self) -> str:
+        """查找最新的结果文件（优先从 final_results 目录）"""
+        from pathlib import Path
+
+        # 首先检查 final_results 目录
+        final_results_dir = Path(self.config.storage.final_results_dir)
+        if final_results_dir.exists():
+            json_files = list(final_results_dir.glob("anime_ranking_*.json"))
+            if json_files:
+                latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
+                logger.info(f"📂 自动选择 final_results 中的最新文件: {latest_file.name}")
+                logger.info(f"   (这是经过手动处理的结果)")
+                return str(latest_file)
+
+        # 如果 final_results 没有文件，则从普通 results 目录查找
+        results_dir = Path(self.config.storage.results_dir)
+        if not results_dir.exists():
+            raise FileNotFoundError("结果目录不存在")
+
+        json_files = list(results_dir.glob("anime_ranking_*.json"))
+        if not json_files:
+            raise FileNotFoundError("没有找到分析结果文件")
+
+        latest_file = max(json_files, key=lambda x: x.stat().st_mtime)
+        logger.info(f"📂 自动选择 results 中的最新文件: {latest_file.name}")
+        logger.info(f"   (这是原始分析结果)")
+        return str(latest_file)
+
     def load_analysis_results(self, file_path: str) -> List[AnimeScore]:
         """从JSON文件加载分析结果"""
         logger.info(f"📂 加载分析结果: {file_path}")
@@ -55,36 +90,44 @@ class ManualDataCompletion:
             anime_info = AnimeInfo(
                 title=ranking['title'],
                 title_english=ranking.get('title_english'),
-                mal_id=None,  # 从URL中提取
-                anilist_id=None,  # 从URL中提取
-                bangumi_id=None,  # 从URL中提取
+                title_japanese=ranking.get('title_japanese'),
+                title_chinese=ranking.get('title_chinese'),
                 anime_type=ranking.get('anime_type'),
                 episodes=ranking.get('episodes'),
                 start_date=ranking.get('start_date'),
                 studios=ranking.get('studios', []),
-                genres=ranking.get('genres', [])
+                genres=ranking.get('genres', []),
+                poster_image=ranking.get('poster_image'),
+                cover_image=ranking.get('cover_image'),
+                banner_image=ranking.get('banner_image')
             )
             
             # 重建RatingData列表
             ratings = []
             for rating in ranking['ratings']:
                 website = WebsiteName(rating['website'])
-                
-                # 从URL中提取ID
-                if website == WebsiteName.MAL and 'myanimelist.net/anime/' in rating['url']:
-                    anime_info.mal_id = rating['url'].split('/anime/')[-1].split('/')[0]
-                elif website == WebsiteName.ANILIST and 'anilist.co/anime/' in rating['url']:
-                    anime_info.anilist_id = rating['url'].split('/anime/')[-1].split('/')[0]
-                elif website == WebsiteName.BANGUMI and 'bgm.tv/subject/' in rating['url']:
-                    anime_info.bangumi_id = rating['url'].split('/subject/')[-1].split('/')[0]
-                
+
+                # 从URL中提取ID并存储到external_ids
+                if website == WebsiteName.MAL and 'myanimelist.net/anime/' in rating.get('url', ''):
+                    mal_id = rating['url'].split('/anime/')[-1].split('/')[0]
+                    anime_info.external_ids[WebsiteName.MAL] = mal_id
+                elif website == WebsiteName.ANILIST and 'anilist.co/anime/' in rating.get('url', ''):
+                    anilist_id = rating['url'].split('/anime/')[-1].split('/')[0]
+                    anime_info.external_ids[WebsiteName.ANILIST] = anilist_id
+                elif website == WebsiteName.BANGUMI and 'bgm.tv/subject/' in rating.get('url', ''):
+                    bangumi_id = rating['url'].split('/subject/')[-1].split('/')[0]
+                    anime_info.external_ids[WebsiteName.BANGUMI] = bangumi_id
+                elif website == WebsiteName.DOUBAN and 'douban.com/subject/' in rating.get('url', ''):
+                    douban_id = rating['url'].split('/subject/')[-1].split('/')[0]
+                    anime_info.external_ids[WebsiteName.DOUBAN] = douban_id
+
                 rating_data = RatingData(
                     website=website,
                     raw_score=rating['raw_score'],
                     vote_count=rating['vote_count'],
                     site_mean=0.0,  # 会重新计算
                     site_std=0.0,   # 会重新计算
-                    url=rating['url']
+                    url=rating.get('url', '')
                 )
                 ratings.append(rating_data)
             
@@ -211,7 +254,7 @@ class ManualDataCompletion:
                     break
                 elif choice in ['n', 'no', '否']:
                     print("   ⏭️ 跳过这个动漫")
-                    continue
+                    break
                 elif choice in ['q', 'quit', '退出']:
                     print("   🛑 退出手动补全")
                     return completed_data
@@ -260,12 +303,156 @@ class ManualDataCompletion:
         logger.info(f"🎉 成功合并 {merged_count} 条手动数据")
         return anime_scores
 
+    def _save_analysis_results(self, analysis, output_dir: str, output_formats: List[str], filename_suffix: str = ""):
+        """保存分析结果"""
+        from pathlib import Path
+
+        output_path = Path(output_dir)
+        output_path.mkdir(parents=True, exist_ok=True)
+
+        # 生成文件名
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        season_str = f"{analysis.season.value}_{analysis.year}"
+        base_filename = f"anime_ranking_{season_str}{filename_suffix}_{timestamp}"
+
+        # 准备数据
+        results_data = {
+            "analysis_info": {
+                "season": analysis.season.value,
+                "year": analysis.year,
+                "analysis_date": analysis.analysis_date.isoformat(),
+                "total_anime_count": analysis.total_anime_count,
+                "analyzed_anime_count": analysis.analyzed_anime_count,
+                "manual_completion": True,
+                "manual_completion_date": datetime.now().isoformat()
+            },
+            "rankings": []
+        }
+
+        # 转换动漫评分数据
+        for i, anime_score in enumerate(analysis.anime_scores, 1):
+            anime_data = {
+                "rank": i,
+                "title": anime_score.anime_info.title,
+                "title_english": anime_score.anime_info.title_english,
+                "title_japanese": anime_score.anime_info.title_japanese,
+                "title_chinese": anime_score.anime_info.title_chinese,
+                "anime_type": anime_score.anime_info.anime_type.value if anime_score.anime_info.anime_type else None,
+                "episodes": anime_score.anime_info.episodes,
+                "start_date": anime_score.anime_info.start_date.isoformat() if anime_score.anime_info.start_date else None,
+                "studios": anime_score.anime_info.studios,
+                "genres": anime_score.anime_info.genres,
+                "composite_score": anime_score.composite_score.final_score if anime_score.composite_score else 0,
+                "confidence": anime_score.composite_score.confidence if anime_score.composite_score else 0,
+                "total_votes": anime_score.composite_score.total_votes if anime_score.composite_score else 0,
+                "website_count": len(anime_score.ratings),
+                "poster_image": anime_score.anime_info.poster_image,
+                "cover_image": anime_score.anime_info.cover_image,
+                "banner_image": anime_score.anime_info.banner_image,
+                "percentile": anime_score.composite_score.percentile if anime_score.composite_score else None,
+                "ratings": []
+            }
+
+            # 添加各网站评分
+            for rating in anime_score.ratings:
+                rating_data = {
+                    "website": rating.website.value,
+                    "raw_score": rating.raw_score,
+                    "vote_count": rating.vote_count,
+                    "site_rank": getattr(rating, 'site_rank', None)
+                }
+                anime_data["ratings"].append(rating_data)
+
+            results_data["rankings"].append(anime_data)
+
+        # 保存为不同格式
+        if "json" in output_formats:
+            json_file = output_path / f"{base_filename}.json"
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(results_data, f, ensure_ascii=False, indent=2)
+            logger.info(f"Results saved to {json_file}")
+
+        if "csv" in output_formats:
+            csv_file = output_path / f"{base_filename}.csv"
+            self._save_csv_results(results_data, csv_file)
+            logger.info(f"CSV results saved to {csv_file}")
+
+    def _save_csv_results(self, data, csv_path):
+        """保存CSV格式结果"""
+        import csv
+
+        # 获取所有网站
+        all_websites = set()
+        for anime in data['rankings']:
+            for rating in anime.get('ratings', []):
+                all_websites.add(rating['website'])
+
+        all_websites = sorted(list(all_websites))
+
+        with open(csv_path, 'w', newline='', encoding='utf-8-sig') as f:
+            writer = csv.writer(f)
+
+            # 构建表头
+            headers = [
+                'Rank', 'Title', 'Title_English', 'Title_Japanese', 'Type', 'Episodes',
+                'Start_Date', 'Studios', 'Genres', 'Composite_Score', 'Confidence',
+                'Total_Votes', 'Website_Count'
+            ]
+
+            # 添加各网站的评分和投票数列
+            for website in all_websites:
+                headers.extend([
+                    f"{website.upper()}_Score",
+                    f"{website.upper()}_Votes"
+                ])
+
+            writer.writerow(headers)
+
+            # 写入数据
+            for anime in data['rankings']:
+                # 基础信息
+                row = [
+                    anime['rank'],
+                    anime['title'],
+                    anime.get('title_english', ''),
+                    anime.get('title_japanese', ''),
+                    anime.get('anime_type', ''),
+                    anime.get('episodes', ''),
+                    anime.get('start_date', ''),
+                    ', '.join(anime.get('studios', [])),
+                    ', '.join(anime.get('genres', [])),
+                    anime['composite_score'],
+                    anime['confidence'],
+                    anime['total_votes'],
+                    anime['website_count']
+                ]
+
+                # 各网站评分
+                website_ratings = {}
+                for rating in anime.get('ratings', []):
+                    website_ratings[rating['website']] = {
+                        'score': rating['raw_score'],
+                        'votes': rating['vote_count']
+                    }
+
+                # 添加各网站的评分和投票数
+                for website in all_websites:
+                    if website in website_ratings:
+                        row.extend([
+                            website_ratings[website]['score'],
+                            website_ratings[website]['votes']
+                        ])
+                    else:
+                        row.extend(['', ''])
+
+                writer.writerow(row)
+
 
 @click.command()
 @click.option('--config', '-c', default='config/config.yaml',
               help='配置文件路径')
-@click.option('--input', '-i', required=True,
-              help='输入的分析结果JSON文件路径')
+@click.option('--input', '-i', default=None,
+              help='输入的分析结果JSON文件路径 (默认: 自动选择最新文件)')
 @click.option('--output', '-o', default=None,
               help='输出目录 (默认: 从配置读取)')
 @click.option('--formats', '-f', default='json,csv',
@@ -289,11 +476,19 @@ def main(config, input, output, formats, verbose):
         
         # 2. 创建手动补全器
         manual_completion = ManualDataCompletion(app_config)
+
+        # 3. 确定输入文件
+        if input is None:
+            logger.info("🔍 未指定输入文件，自动查找最新结果...")
+            input_file = manual_completion.find_latest_results_file()
+        else:
+            input_file = input
+            logger.info(f"📂 使用指定的输入文件: {input_file}")
+
+        # 4. 加载分析结果
+        anime_scores = manual_completion.load_analysis_results(input_file)
         
-        # 3. 加载分析结果
-        anime_scores = manual_completion.load_analysis_results(input)
-        
-        # 4. 识别不完整的动漫
+        # 5. 识别不完整的动漫
         incomplete_anime = manual_completion.identify_incomplete_anime(anime_scores)
         
         if not incomplete_anime:
@@ -326,16 +521,15 @@ def main(config, input, output, formats, verbose):
         logger.info("🧮 重新计算综合评分和排名...")
         ranked_scores = manual_completion.analyzer.calculate_composite_scores(updated_scores)
         
-        # 8. 保存结果
-        output_dir = output or app_config.storage.results_dir
+        # 8. 保存结果到 final_results 目录
+        output_dir = output or app_config.storage.final_results_dir
         output_formats = [fmt.strip() for fmt in formats.split(',')]
         
         # 创建分析结果对象
-        from src.models.analysis import SeasonalAnalysis
-        from src.models.anime import Season
+        from src.models.anime import SeasonalAnalysis, Season
         
         # 从原文件名推断季度信息
-        input_path = Path(input)
+        input_path = Path(input_file)
         if 'Summer_2025' in input_path.name:
             season = Season.SUMMER
             year = 2025
@@ -353,8 +547,8 @@ def main(config, input, output, formats, verbose):
         # 添加手动补全标记
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename_suffix = f"_manual_completed_{timestamp}"
-        
-        save_analysis_results(analysis, output_dir, output_formats, filename_suffix)
+
+        manual_completion._save_analysis_results(analysis, output_dir, output_formats, filename_suffix)
         
         # 9. 显示最终统计
         website_counts = {}

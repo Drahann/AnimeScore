@@ -137,6 +137,10 @@ class DataCompletionConfig(BaseModel):
         default_factory=lambda: ["bangumi", "mal", "anilist"],
         description="优先补全的网站列表"
     )
+    excluded_websites: List[str] = Field(
+        default_factory=lambda: ["douban"],
+        description="数据补全时排除的网站列表"
+    )
 
     @validator('max_retry_per_anime')
     def validate_max_retry(cls, v):
@@ -167,6 +171,7 @@ class StorageConfig(BaseModel):
     """存储配置"""
     cache_dir: str = Field("data/cache", description="缓存目录")
     results_dir: str = Field("data/results", description="结果目录")
+    final_results_dir: str = Field("data/results/final_results", description="手动处理后的最终结果目录")
     cache_expiration: int = Field(24, description="缓存过期时间（小时）")
     export_formats: List[str] = Field(default_factory=lambda: ["json", "csv", "xlsx"])
     

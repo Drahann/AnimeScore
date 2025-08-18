@@ -1,12 +1,12 @@
 api_keys:
   anilist:
-    client_id: "optional_for_rate_limiting"  # AniList 无需API密钥，可选配置
+    client_id: optional_for_rate_limiting  # AniList 无需API密钥，可选配置
   bangumi:
-    access_token: "your_bangumi_access_token_here"  # 从 https://bgm.tv/dev/app 获取
+    access_token: hKYw6NlNG7dupRnrE7CdgppUYoqv6VxupnHATCVJ  # 从 https://bgm.tv/dev/app 获取
   mal:
-    auth_mode: "client_id_only"
-    client_id: "your_mal_client_id_here"  # 从 https://myanimelist.net/apiconfig 获取
-    client_secret: "your_mal_client_secret_here"  # 从 https://myanimelist.net/apiconfig 获取
+    auth_mode: client_id_only
+    client_id: 4372369f4c49ab0f22e3405c1eb81032  # 从 https://myanimelist.net/apiconfig 获取
+    client_secret: 203596caf450aee7f2bc35f3d4ad9ef204a6e92f3c11460194b2f002af05ab37  # 从 https://myanimelist.net/apiconfig 获取
 logging:
   backup_count: 5
   file: data/logs/animescore.log
@@ -20,7 +20,7 @@ model:
     bangumi: 1.0
     douban: 1.0
     filmarks: 0.9
-    imdb: 0.8
+    imdb: 0.6
     mal: 1.0
   site_statistics:
     method: seasonal
@@ -53,6 +53,9 @@ data_completion:
   # Priority websites for completion (attempt these first)
   priority_websites: ["bangumi", "mal", "anilist"]
 
+  # Websites to exclude from data completion (but still enabled for seasonal analysis)
+  excluded_websites: []
+
 seasonal:
   current_season: null
   min_episodes: 1
@@ -65,6 +68,7 @@ storage:
   - csv
   - xlsx
   results_dir: data/results
+  final_results_dir: data/results/final_results  # 手动处理后的最终结果目录
 websites:
   anilist:
     api_base_url: https://graphql.anilist.co
@@ -81,9 +85,9 @@ websites:
   douban:
     api_base_url: null
     base_url: https://movie.douban.com
-    enabled: false
-    rate_limit: 2.0
-    timeout: 30
+    enabled: true    # 启用豆瓣（但在数据补全中排除）
+    rate_limit: 3.0  # 与成功的独立测试保持一致
+    timeout: 30      # 与成功的独立测试保持一致
   filmarks:
     api_base_url: null
     base_url: https://filmarks.com

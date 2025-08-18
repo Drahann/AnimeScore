@@ -138,17 +138,22 @@ class DataCompletion:
         return completed_data, completed_anime_info
     
     def _get_enabled_websites(self) -> Set[WebsiteName]:
-        """获取启用的网站列表"""
+        """获取启用的网站列表（排除数据补全排除列表中的网站）"""
         enabled_websites = set()
-        
+        excluded_websites = set(self.completion_config.excluded_websites)
+
         for website_name, website_config in self.config.websites.items():
-            if website_config.enabled:
+            if website_config.enabled and website_name not in excluded_websites:
                 try:
                     website_enum = WebsiteName(website_name)
                     enabled_websites.add(website_enum)
                 except ValueError:
                     continue
-        
+
+        logger.debug(f"数据补全启用的网站: {[w.value for w in enabled_websites]}")
+        if excluded_websites:
+            logger.debug(f"数据补全排除的网站: {list(excluded_websites)}")
+
         return enabled_websites
     
     def _generate_search_terms(self, anime_score: AnimeScore) -> List[str]:
